@@ -161,11 +161,18 @@ body {
 	background: url('images/topmenu5.gif') no-repeat;
 }
 
-#menu nav ul li #header_login {
+#menu nav ul li #header_logged_out {
 	width: 135px;
 	height: 38px;
 	display: inline-block;
 	background: url('images/topmenu_login.gif') no-repeat;
+}
+
+#menu nav ul li #header_logged_in {
+	width: 135px;
+	height: 38px;
+	display: inline-block;
+	background: url('images/topmenu_logout.gif') no-repeat;
 }
 
 nav {
@@ -818,23 +825,26 @@ footer #footer_line .org_info address { font-style: normal; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 
-.subpage_stretched .subpage_fixed #tax_refund li #left5_menu1 {
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu1,
+.subpage_stretched .subpage_fixed #support_story li #left5_menu1{
 	width: 195px;
 	height: 46px;
 	display: block;
 	background: url('images/subpage/left/left5_1.gif') no-repeat;
 }
 
-.subpage_stretched .subpage_fixed #tax_refund li #left5_menu2 {
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu2,
+.subpage_stretched .subpage_fixed #support_story li #left5_menu2 {
 	width: 195px;
 	height: 46px;
 	display: block;
 	background: url('images/subpage/left/left5_2.gif') no-repeat;
 }
 
-.subpage_stretched .subpage_fixed #tax_refund li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
-.subpage_stretched .subpage_fixed #tax_refund li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
-
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu1:hover,
+.subpage_stretched .subpage_fixed #support_story li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu2:hover,
+.subpage_stretched .subpage_fixed #support_story li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 
 .subpage_stretched .subpage_fixed #content {
 	padding-top: 5px;
@@ -977,6 +987,7 @@ footer #footer_line .org_info address { font-style: normal; }
 	margin-left: 11.5px;
 	font-size: 14px;
 	color: #333333;
+	height: 32px;
 }
 
 .subpage_stretched .subpage_fixed #support_list .support_box .support_date {
@@ -1123,7 +1134,7 @@ footer #footer_line .org_info address { font-style: normal; }
 	display: inline;
 }
 
-.post-title img {
+.list img {
 	float: right;
 }
 
@@ -1141,6 +1152,10 @@ footer #footer_line .org_info address { font-style: normal; }
 	font-size: 13px;
 	line-height: 20px;
 	color: #333333;
+}
+
+.post-content img {
+	max-width: 600px;
 }
 
 .really_simple_share {

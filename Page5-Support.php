@@ -38,6 +38,7 @@ get_header(); ?>
 						
 					query_posts(array(
 						'cat' => getDonationCategoryNum(),
+						'cat' => getDonatioinEndCategoryNum(),
 						'posts_per_page' => 8,
 						'paged' => $paged
 						)					
@@ -57,9 +58,11 @@ get_header(); ?>
 					<h3>				
 						<?php the_title(); ?>
 					</h3>
+					<!--
 					<div class="support_date">
 						 <?php the_time('Y. m. d') ?>
 					</div>
+					-->
 					
 					<div class="btn_img">
 						<a href="<?php echo get_permalink($id) ?>" title="<?php the_title(); ?>" >

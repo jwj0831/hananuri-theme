@@ -32,7 +32,10 @@
 					</div>
 					<div class="new_contents">
 						<?php
-						$news_query = new WP_Query('posts_per_page=5&order=DESC&orderby=date');
+						/*  Notice!!!!!
+						 * Category number 15 means notice num
+						 */
+						$news_query = new WP_Query('posts_per_page=5&order=DESC&orderby=date&cat=15');
 						while ($news_query->have_posts()) : $news_query->the_post();
 						$id = get_the_ID();
 						$category = get_the_category($id); ?>
@@ -44,7 +47,7 @@
 					</div> 
 				</div>
 				<div class="fb_news">
-					<div class="fb-like-box" data-href="https://www.facebook.com/hanaworld" data-width="324" data-height="217" data-show-faces="true" data-stream="false" data-show-border="true" data-header="true"></div>
+					<div class="fb-like-box" data-href="https://www.facebook.com/hanaworld" data-width="324" data-height="217" data-show-faces="false" data-stream="true" data-show-border="true" data-header="true"></div>
 				</div>
 			</div>		
 		</div><!--close main_low-->

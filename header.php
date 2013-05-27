@@ -155,7 +155,19 @@
 									echo '_fixed"';
 								echo '" href="' . home_url() . '/support"></a></li>';
 							?>
-							<li><a id="header_login" href="<?php echo home_url()?>/wp-login.php"></a></li>';										
+							<?php
+								echo '<li><a id="';
+								if( is_user_logged_in() ) {
+									echo 'header_logged_in" href="' . wp_logout_url( $redirect ) . '"></a></li>';
+								}
+								else {
+									echo 'header_logged_out" href="' . home_url() . '/wp-login.php"></a></li>';
+								}
+								
+							?>
+							<!--
+							<li><a id="header_login" href="<?php echo home_url()?>/wp-login.php"></a></li>	
+							-->							
 						</ul>	
 					</nav>
 				</div>

@@ -25,6 +25,8 @@
 								echo '홈 > 매거진 > 한반도 정세 매거진';
 							else if($category == getHananuriStoryCategoryNum() )
 								echo '홈 > 매거진 > 하나누리 이야기';
+							else if($category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
+								echo '홈 > 후원 > 후원안내';
 						?>
 					</p>
 				</div>
@@ -38,18 +40,20 @@
 			    <?php the_post(); ?>       
 			    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			    	<div class="post-header-img">
-			    		<?php if( $category == getDonationCategoryNum() ) {?>
+			    		<?php if( $category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() ) {?>
 	  						<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
 			   		 	<?php } ?>
+			    	</div>
+			    	<div class="list">
+			    		<a href="javascript:javascript:history.go(-1)"><img src='<?php bloginfo('template_url'); ?>/images/single/post-lists.gif'></a> 
 			    	</div>
 			    	<div class="post-main">			    	
 				        <div class="post-title">
 				          <h2><?php the_title(); ?></h2>
-				          <a href="javascript:javascript:history.go(-1)"><img src='<?php bloginfo('template_url'); ?>/images/single/post-lists.gif'></a>            
 				        </div>
 				        
 				        <div class="post-meta-data">
-				        	<b>글쓴이: <?php the_author()?></b> | 작성일: <?php the_time('F j, Y') ?> | 조회수: <?php if(function_exists(‘the_views’)) { the_views(); } ?>
+				        	<b>글쓴이: <?php the_author()?></b> | 작성일: <?php the_time('F j, Y') ?> | 조회수: <?php the_views(); ?>
 				        </div>
 				        
 				        <section>

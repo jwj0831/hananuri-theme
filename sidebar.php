@@ -86,14 +86,18 @@
 
 <?php
 	}
-	else if( is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or is_page( getTaxRefundPageNum() )  ) 
-	{
+	else if( is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or 
+			is_page( getTaxRefundPageNum() ) or $category == getDonationCategoryNum() or
+			$category == getDonatioinEndCategoryNum()
+	){
 		if( is_page( getPeriodicSupportPageNum() ) )
 			echo '<aside id="periodic_support">';
 		else if( is_page( getTemporalSupportPageNum() ) )
 			echo '<aside id="temporal_support">';
 		else if ( is_page( getTaxRefundPageNum() ) )
 			echo '<aside id="tax_refund">';
+		else if ( $category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
+			echo '<aside id="support_story">';
 ?>
 	<img src='<?php bloginfo('template_url'); ?>/images/subpage/left/left5_t.gif'>
 	<ul>

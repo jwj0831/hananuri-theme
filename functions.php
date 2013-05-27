@@ -68,7 +68,7 @@ function getPeninsulaMCategoryNum() {return 11;}
 function getHananuriStoryCategoryNum() {return 12;}
 function getDonationCategoryNum() {return 13;}
 function getDonatioinEndCategoryNum() {return 14;}
-
+function getNoticeCategoryNum() {return 15;}
 
 // Changing excerpt length
 function new_excerpt_length($length) {
