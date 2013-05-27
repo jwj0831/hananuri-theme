@@ -41,7 +41,7 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => 4 ,
+							'cat' => getHananuriStoryCategoryNum(),
 							'posts_per_page' => 5,
 							'paged' => $paged
 							)					

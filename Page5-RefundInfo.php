@@ -23,8 +23,10 @@ get_header(); ?>
 		
 		<div class="subpage_fixed">
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
-			<div id="content"><br />
-				<?php if (function_exists('iphorm')) echo iphorm(3); ?>
+			<div id="content">
+				<div class="form">
+					<?php if (function_exists('iphorm')) echo iphorm(3); ?>
+				</div>
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->

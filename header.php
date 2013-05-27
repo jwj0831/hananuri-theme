@@ -49,7 +49,18 @@
 <?php wp_head(); ?>
 	</head>
                     
-	<body <?php body_class(); ?>> 
+	<body <?php body_class(); ?>>
+		<?php if ( is_front_page() ) {	?>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=228710550558869";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<?php }	?>
+		 
 		<div id="wrapper">
 			<div id="head-container">
 				<header>

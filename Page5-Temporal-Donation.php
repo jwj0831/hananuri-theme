@@ -31,6 +31,7 @@
 		if ($image) {
 		echo "<link rel=\"image_src\" href=\"" . $image . "\">";
 		} ?>
+				
 		
 			<title><?php
 				/*
@@ -59,7 +60,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-	
+		
 	<?
     /* ============================================================================== */
     /* =   Javascript source Include                                                = */
@@ -94,7 +95,7 @@
             /* Payplus Plugin 실행 */
             if ( MakePayMessage( form ) == true )
             {
-                openwin = window.open( "http://hananuri07.cafe24.com/kcp/proc_win.html", "proc_win", "width=449, height=209, top=300, left=300" );
+                openwin = window.open( "http://wjwjwjw.cafe24.com/kcp/proc_win.html", "proc_win", "width=449, height=209, top=300, left=300" );
                 RetVal = true ;
             }
             
@@ -147,7 +148,7 @@
                 date = "0" + date;
             }
 
-            var order_idxx = year + "" + month + "" + date + "" + time;
+            var order_idxx = "HANANURI" + year + "" + month + "" + date + "" + time;
 
             document.order_info.ordr_idxx.value = order_idxx;
 
@@ -168,7 +169,7 @@
         }
 		</script>	
 	
-	
+		
 	<!-- Pulled from http://code.google.com/p/html5shiv/ -->
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -182,7 +183,18 @@
 <?php wp_head(); ?>
 	</head>
                     
-	<body onload="init_orderid();" <?php body_class(); ?> > 
+	<body onload="init_orderid();" <?php body_class(); ?>>
+		<?php if ( is_front_page() ) {	?>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=228710550558869";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<?php }	?>
+		 
 		<div id="wrapper">
 			<div id="head-container">
 				<header>
@@ -295,6 +307,7 @@
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
 			<div id="content">
 				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_temporal_support.gif'>
+				<div class="form">
 				<form name="order_info" method="post" action="/kcp/pp_ax_hub.php" >
 					<div class="temporal_donate_form">
 						<div class="donate_form_row">
@@ -304,7 +317,7 @@
 							</div>
 							<div class="donate_form_row">
 								<div class="donate_form_col1">
-									<label class="label-name">후원분야</label>
+									<label class="label-name">후원분야  <span class="reqiured">*</span></label>
 									<select name="good_name" class="select_btn">
 				                        <option value="일반후원">일반후원</option>
 				                        <option value="북한 인도적 지원">북한 인도적 지원</option>
@@ -313,62 +326,42 @@
 				                    </select>
 								</div>
 								<div class="donate_form_col2">
-				                    <label class="label-name">후원금액</label>
-							 		<input type="text" name="good_mny" class="textfield" value="" size="10" maxlength="9"/> 원 <label class="label-name">(숫자만 입력)</label>
+				                    <label class="label-name">후원금액 <span class="reqiured">*</span></label>
+							 		<input type="text" name="good_mny" class="textfield" value="" size="9" maxlength="9"/> 원 <label class="label-name">(숫자만 입력)</label>
 						 		</div>
 		                    </div>
 					 	</div>
 					 	<div class="donate_form_row">
-						 	<label class="label-name">후원방법</label>
+						 	<label class="label-name">후원방법 <span class="reqiured">*</span></label>
 						 	<select name="pay_method" class="select_btn">
 		                        <option value="100000000000">신용카드</option>
 		                        <option value="010000000000">계좌이체</option>
-		                        <option value="000010000000">휴대폰</option>
 		                    </select>
 						</div>
 						<div class="group-title-wrap">
-							<div class="group-title">후원자 정보</div>
+							<div class="group-title">후원자 정보 </div>
 						</div>
 						<div class="donate_form_row">
 							<div class="donate_form_col1">
-							 	<label class="label-name">이름</label>
+							 	<label class="label-name">이름 <span class="reqiured">*</span></label>
 							 	<input class="textfield" type='text' name='buyr_name' size=18 required itemname="이름" value=""/>
 						 	</div>
 						 	<div class="donate_form_col2">
-						 		<label class="label-name">연락처</label>
+						 		<label class="label-name">연락처 <span class="reqiured">*</span></label>
 						 		<input class="textfield" type='text' name='buyr_tel1' size=18 required itemname="연락처" value=""/>
 					 		</div>
 					 	</div>
 					 	<div class="donate_form_row">
-						 	<label class="label-name">이메일</label>
+						 	<label class="label-name">이메일 <span class="reqiured">*</span></label>
 						 	<input class="textfield" type='text' name='buyr_mail' size=30 required itemname="이메일" value=""/>
 					 	</div>
 					 	<div class="donate_form_row">
 						 	<label class="label-name">우편물수령지(선택)</label>
 						 	<input class="textfield" type='text' name='buyr_address' size=80 itemname="주소" value=""/>
 					 	</div>
-						<div class="group-title-wrap">
-							<div class="group-title">소득 공제 정보</div>
-							<div class="title-detail">연말 소득공제를 원하실 경우 아래 내용을 기입해주세요.</div>
-						</div>
-						<div class="donate_form_row">
-						 	<label class="label-name">이름</label>
-						 	<input class="textfield" type='text' name='return_name' size=18 required itemname="이름" value=""/>
-					 	</div>
-					 	<div class="donate_form_row">
-						 	<label class="label-name">후원액</label>
-						 	<input class="textfield" type='text' name='return_mny' size=18 required itemname="연락처" value=""/>
-					 	</div>
-					 	<div class="donate_form_row">
-						 	<label class="label-name">주민등륵번호</label>
-						 	<input class="textfield" type='text' name='return_sn' size=18 required itemname="이메일" value=""/>
-					 	</div>
-					 	<div class="donate_form_row">
-						 	<label class="label-name">주소</label>
-						 	<input class="textfield" type='text' name='return_address' size=80 itemname="주소" value=""/>
-					 	</div>
+						
 					 	<div class="submit_row">
-					 		 <input type="submit" name="submit" id="submit" onclick="return jsf__pay(this.form);"/>
+					 		 <input type="submit" value="Send" class="btn-style" onclick="return jsf__pay(this.form);"/>
 						</div>
 					</div><!--close temporal_donate_form-->
 <?
@@ -540,6 +533,7 @@
     /* ============================================================================== */
 ?>
 				</form>
+			</div>	
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 		

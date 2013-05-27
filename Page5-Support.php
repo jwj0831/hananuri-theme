@@ -37,7 +37,7 @@ get_header(); ?>
 	                }
 						
 					query_posts(array(
-						'cat' => 19,
+						'cat' => getDonationCategoryNum(),
 						'posts_per_page' => 8,
 						'paged' => $paged
 						)					
@@ -61,20 +61,9 @@ get_header(); ?>
 						 <?php the_time('Y. m. d') ?>
 					</div>
 					
-					<?php
-						$flag = 0;
-						$posttags = get_the_tags();
-						if ($posttags) {
-						  foreach($posttags as $tag) {
-						    if($tag->name.strcmp(getSupportCloseTagString()))
-								$flag = 1;
-						  }
-						}
-					?>
-					
 					<div class="btn_img">
 						<a href="<?php echo get_permalink($id) ?>" title="<?php the_title(); ?>" >
-						<?php if($flag) { ?>
+						<?php if(getParentCatID() == getDonatioinEndCategoryNum()) { ?>
 							<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_end_btn.gif'>
 						<?php } else {?>
 							<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_more_btn.gif'>

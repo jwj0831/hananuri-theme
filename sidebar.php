@@ -86,12 +86,14 @@
 
 <?php
 	}
-	else if( is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) ) 
+	else if( is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or is_page( getTaxRefundPageNum() )  ) 
 	{
 		if( is_page( getPeriodicSupportPageNum() ) )
 			echo '<aside id="periodic_support">';
 		else if( is_page( getTemporalSupportPageNum() ) )
 			echo '<aside id="temporal_support">';
+		else if ( is_page( getTaxRefundPageNum() ) )
+			echo '<aside id="tax_refund">';
 ?>
 	<img src='<?php bloginfo('template_url'); ?>/images/subpage/left/left5_t.gif'>
 	<ul>

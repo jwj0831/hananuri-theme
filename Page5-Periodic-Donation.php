@@ -25,7 +25,9 @@ get_header(); ?>
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 			<div id="content">
 				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_periodic_support.gif'>
-				<?php if (function_exists('iphorm')) echo iphorm(1); ?>
+				<div class="form">
+					<?php if (function_exists('iphorm')) echo iphorm(1); ?>
+				</div>
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->

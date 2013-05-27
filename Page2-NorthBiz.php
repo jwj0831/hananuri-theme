@@ -41,7 +41,7 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => 4 ,
+							'cat' => getNorthBizCategoryNum(),
 							'posts_per_page' => 3,
 							'paged' => $paged
 							)					

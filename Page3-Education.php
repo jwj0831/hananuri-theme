@@ -16,7 +16,7 @@ get_header(); ?>
 		<div class="breadcrumb_stretched">
 			<div class="breadcrumb_fixed">
 				<p>
-					<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub_home.gif'> 홈 > 국내사 > 문화교류∙교육 사업
+					<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub_home.gif'> 홈 > 국내사업 > 문화교류∙교육 사업
 				</p>
 			</div>
 		</div>
@@ -41,7 +41,7 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => 2,
+							'cat' => getEducationCategoryNum(),
 							'posts_per_page' => 3,
 							'paged' => $paged
 							)					

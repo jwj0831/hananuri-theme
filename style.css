@@ -437,7 +437,7 @@ footer #footer_line .org_info address { font-style: normal; }
  *  Sidebar CSS
  */
 .subpage_stretched .subpage_fixed aside {
-	width: 235px;
+	width: 234px;
 	float: left;
 	padding-top: 50px;
 	display:inline;
@@ -783,28 +783,6 @@ footer #footer_line .org_info address { font-style: normal; }
 .subpage_stretched .subpage_fixed #story li #left4_menu1:hover { background: url('images/subpage/left/left4_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #story li #left4_menu2:hover { background: url('images/subpage/left/left4_2r.gif') no-repeat; }
 
-
-
-
-/*
-.subpage_stretched .subpage_fixed #support li #left5_menu1 {
-	width: 195px;
-	height: 46px;
-	display: block;
-	background: url('images/subpage/left/left5_1.gif') no-repeat;
-}
-
-.subpage_stretched .subpage_fixed #support li #left5_menu2 {
-	width: 195px;
-	height: 46px;
-	display: block;
-	background: url('images/subpage/left/left5_2.gif') no-repeat;
-}
-
-.subpage_stretched .subpage_fixed #support li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
-.subpage_stretched .subpage_fixed #support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
-*/
-
 .subpage_stretched .subpage_fixed #periodic_support li #left5_menu1 {
 	width: 195px;
 	height: 46px;
@@ -840,6 +818,22 @@ footer #footer_line .org_info address { font-style: normal; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu1 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_1.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu2 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_2.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #tax_refund li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 
 
 .subpage_stretched .subpage_fixed #content {
@@ -849,6 +843,7 @@ footer #footer_line .org_info address { font-style: normal; }
 	width: 714px;
 	float: left;
 	border-left: 1px dotted #cfcfcf;
+	min-height: 800px;
 }
 
 .subpage_stretched .subpage_fixed #content .biz_update_banner {
@@ -1004,6 +999,10 @@ footer #footer_line .org_info address { font-style: normal; }
 	display: inline-block;
 }
 
+.form {
+	margin-top: 30px;
+}
+
 .temporal_donate_form {
 	width: 694px;
 	padding: 0px 10px 10px 10px;
@@ -1093,7 +1092,10 @@ footer #footer_line .org_info address { font-style: normal; }
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
-
+.reqiured {
+	color: #cc0101;
+	font-size: 10px;
+}
 
 /*
  *  For Single Page CSS
@@ -1149,5 +1151,40 @@ footer #footer_line .org_info address { font-style: normal; }
 	margin: 50px 0;
 }
 
+.btn-style{
+	border : solid 1px #e6e6e6;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	font-size : 14px;
+	color : #696869;
+	padding : 5px 15px;
+	background : #ffffff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+	background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
 
+}
 
+.btn-style:active{
+	border : solid 1px #e6e6e6;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	-webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	-moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	font-size : 14px;
+	color : #696869;
+	padding : 5px 15px;
+	background : #ffffff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+	background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}

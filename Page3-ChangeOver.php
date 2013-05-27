@@ -41,7 +41,7 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => 2,
+							'cat' => getTransformationCategoryNum(),
 							'posts_per_page' => 3,
 							'paged' => $paged
 							)					

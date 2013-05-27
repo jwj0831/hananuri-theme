@@ -7,18 +7,24 @@
 						<?php
 							$category = getParentCatID();
 							
-							if($category == 4)
+							if($category == getNorthBizCategoryNum() )
 								echo '홈 > 북한∙해외사업 > 북한사업';
-							else if($category == 3)
-								echo '홈 > 북한∙해외사업 > 해외사업';
-							else if($category == 18 or $category == 2)
-								echo '홈 > 국내사업 > 국내사업';
-							else if($category == 16)
-								echo '홈 > 국내사업 > 갈등전환 센터';
-							else if($category == 17)
+							else if($category == getOverseasBizIndiaCategoryNum() )
+								echo '홈 > 북한∙해외사업 > 해외사업 > 해외사업-인도';
+							else if($category == getOverseasBizVietnamCategoryNum() )
+								echo '홈 > 북한∙해외사업 > 해외사업 > 해외사업-베트남';
+							else if($category == getOverseasBizMongoliaCategoryNum() )
+								echo '홈 > 북한∙해외사업 > 해외사업 > 해외사업-몽골';
+							else if($category == getTransformationCategoryNum() )
+								echo '홈 > 국내사업 > 갈등전환센터';
+							else if($category == getEducationCategoryNum() )
+								echo '홈 > 국내사업 > 문화교류∙교육 사업';
+							else if($category == getLandlibertyCategoryNum() )
 								echo '홈 > 국내사업 > 토지+자유 연구소';
-							else if($category == getSupportCategoryNum())
-								echo '홈 > 후원 > 후원소식';
+							else if($category == getPeninsulaMCategoryNum() )
+								echo '홈 > 매거진 > 한반도 정세 매거진';
+							else if($category == getHananuriStoryCategoryNum() )
+								echo '홈 > 매거진 > 하나누리 이야기';
 						?>
 					</p>
 				</div>
@@ -32,7 +38,7 @@
 			    <?php the_post(); ?>       
 			    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			    	<div class="post-header-img">
-			    		<?php if($category == getSupportCategoryNum()) {?>
+			    		<?php if( $category == getDonationCategoryNum() ) {?>
 	  						<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
 			   		 	<?php } ?>
 			    	</div>
@@ -54,7 +60,7 @@
 			       </div>
 			    </article>
 			
-			<?php if($category != getSupportCategoryNum())
+			<?php if($category != getDonationCategoryNum() )
 	  			comments_template();
 	  		 ?>
 	  		</div><!--close content-->

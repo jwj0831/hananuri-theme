@@ -47,7 +47,7 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => 3 ,
+							'cat' => getOverseasBizMongoliaCategoryNum(),
 							'posts_per_page' => 3,
 							'paged' => $paged
 							)					

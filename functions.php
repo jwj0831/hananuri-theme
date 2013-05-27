@@ -51,6 +51,7 @@ function getStoryPageNum() {return 35;}
 function getSupportPageNum() {return 45;}
 function getPeriodicSupportPageNum() {return 47;}
 function getTemporalSupportPageNum() {return 49;}
+function getTaxRefundPageNum() {return 59;}
 
 // Category Value
 function getNorthBizCategoryNum() {return 1;}
@@ -113,13 +114,6 @@ function hananuri_widgets_init() {
 		'after_title' => '</h3>'
 	));
 	
-	register_sidebar(array(
-		'name' => 'facebook',
-		'before_widget' => '<div id="fb-widget">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>'
-	));
 }
 
 add_action( 'widgets_init', 'hananuri_widgets_init' );

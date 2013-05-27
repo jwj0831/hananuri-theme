@@ -10,8 +10,8 @@
 				<li><a id="main_bannner1" href="<?php echo home_url() ?>"><img src='<?php bloginfo('template_url'); ?>/images/main_banner_t.gif' alt='하나누리 프로젝트'></a></li>		
 				<li><a id="main_bannner2" href="<?php echo home_url() ?>/activities/northbiz"><img src='<?php bloginfo('template_url'); ?>/images/main_banner1.gif' alt='북한 사업'></a></li>		
 				<li><a id="main_bannner3" href="<?php echo home_url() ?>/activities/overseas"><img src='<?php bloginfo('template_url'); ?>/images/main_banner2.gif' alt='해외 사업'></a></li>		
-				<li><a id="main_bannner4" href="<?php echo home_url() ?>/domestic/local"><img src='<?php bloginfo('template_url'); ?>/images/main_banner3.gif' alt='국내 사업'></a></li>
-				<li><a id="main_bannner5" href="<?php echo home_url() ?>/domestic/changeover"><img src='<?php bloginfo('template_url'); ?>/images/main_banner4.gif' alt='갈등전환센터'></a></li>
+				<li><a id="main_bannner4" href="<?php echo home_url() ?>/domestic"><img src='<?php bloginfo('template_url'); ?>/images/main_banner3.gif' alt='국내 사업'></a></li>
+				<li><a id="main_bannner5" href="<?php echo home_url() ?>/domestic/transformation"><img src='<?php bloginfo('template_url'); ?>/images/main_banner4.gif' alt='갈등전환센터'></a></li>
 				<li><a id="main_bannner6" href="<?php echo home_url() ?>/introduction"><img src='<?php bloginfo('template_url'); ?>/images/main_banner5.gif' alt='하나누리 소개'></a></li>
 				<li><a id="main_bannner7" href="<?php echo home_url() ?>/domestic/landliberty"><img src='<?php bloginfo('template_url'); ?>/images/main_banner6.gif' alt='토지자유 연구소'></a></li>
 			</ul>
@@ -44,7 +44,7 @@
 					</div> 
 				</div>
 				<div class="fb_news">
-					<?php dynamic_sidebar('facebook'); ?>
+					<div class="fb-like-box" data-href="https://www.facebook.com/hanaworld" data-width="324" data-height="217" data-show-faces="true" data-stream="false" data-show-border="true" data-header="true"></div>
 				</div>
 			</div>		
 		</div><!--close main_low-->
@@ -56,6 +56,8 @@
 				</div>
 				
 				<div class="support_banner">
+					<?php do_action('slideshow_deploy', '63'); ?>
+					<!--
 					<a id="support_bannner1" href="http://www.samsungdisplay.com"><img src='<?php bloginfo('template_url'); ?>/images/cowork/samsung.gif' alt='삼성디스플레이'></a>
 					<a id="support_bannner2" href="http://www.chest.or.kr"><img src='<?php bloginfo('template_url'); ?>/images/cowork/chest.gif' alt='사회복지공동모금회'></a>
 					<a id="support_bannner3" href="http://eil21.co.kr"><img src='<?php bloginfo('template_url'); ?>/images/cowork/eil21.gif' alt='이일산업'></a>
@@ -64,6 +66,7 @@
 					<a id="support_bannner6" href="http://www.gaius.co.kr"><img src='<?php bloginfo('template_url'); ?>/images/cowork/gaius.gif' alt='가이오산업'></a>
 					<a id="support_bannner7" href="http://www.canaelec.co.kr"><img src='<?php bloginfo('template_url'); ?>/images/cowork/canaelec.gif' alt='(주)카나'></a>
 					<a id="support_bannner8" href="http://www.gscaltex.com"><img src='<?php bloginfo('template_url'); ?>/images/cowork/gs.gif' alt='GS칼텍스'></a>
+					-->
 				</div>
 			</div>
 		</div><!--close supporters-->
