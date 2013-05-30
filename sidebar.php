@@ -69,19 +69,23 @@
 <?php
 	}
 	else if( is_page( getMagazinePageNum() ) or is_page( getPeninsulaPageNum() ) or 
-			is_page( getStoryPageNum() ) or $category == getMagazineCategoryNum() or 
-			$category == getPeninsulaMCategoryNum() or $category == getHananuriStoryCategoryNum() 
+			is_page( getStoryPageNum() ) or is_page( getNorthStoryPageNum() ) or
+			$category == getMagazineCategoryNum() or $category == getPeninsulaMCategoryNum() or 
+			$category == getHananuriStoryCategoryNum() or $category == getNorthStoryCategoryNum() 
 	){
 		if( is_page( getMagazinePageNum() ) or is_page( getPeninsulaPageNum() ) or
 			$category == getMagazineCategoryNum() or $category == getPeninsulaMCategoryNum() )
 			echo '<aside id="magazine">';
 		else if( is_page( getStoryPageNum() ) or $category == getHananuriStoryCategoryNum() )
 			echo '<aside id="story">';
+		else if( is_page( getNorthStoryPageNum() ) or $category == getNorthStoryCategoryNum() )
+			echo '<aside id="northstory">';
 ?>
 	<img src='<?php bloginfo('template_url'); ?>/images/subpage/left/left4_t.gif'>
 	<ul>
 		<li><a id="left4_menu1" href="<?php echo home_url() ?>/magazine/peninsula-m"></a></li>
-		<li><a id="left4_menu2" href="<?php echo home_url() ?>/magazine/story"></a></li>		
+		<li><a id="left4_menu2" href="<?php echo home_url() ?>/magazine/story"></a></li>
+		<li><a id="left4_menu3" href="<?php echo home_url() ?>/magazine/northstory"></a></li>		
 	</ul>
 
 <?php

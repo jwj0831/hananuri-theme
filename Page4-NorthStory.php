@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Template Name: Overseas Biz Page
+ * Template Name: North Story Page
  *
  * A custom page template without sidebar.
  * 
@@ -16,7 +16,7 @@ get_header(); ?>
 		<div class="breadcrumb_stretched">
 			<div class="breadcrumb_fixed">
 				<p>
-					<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub_home.gif'> 홈 > 북한∙해외사업 > 해외사업
+					<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub_home.gif'> 홈 > 매거진 > 북녘땅 이야기
 				</p>
 			</div>
 		</div>
@@ -25,16 +25,10 @@ get_header(); ?>
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
 			
 			<div id="content">
-				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub2/sub2_overseas.gif' usemap="#Overseas_Map">
-				<map name="Overseas_Map" id="Map">
-					<area shape="rect" coords="373,214,487,250" href="<?php echo home_url() ?>/activities/overseas_india" />
-					<area shape="rect" coords="488,214,602,250" href="<?php echo home_url() ?>/activities/overseas_vietnam" />
-					<area shape="rect" coords="603,213,717,249" href="<?php echo home_url() ?>/activities/overseas_mongolia" />
-				</map>
-				
 				<div class="biz_update_banner">
-					<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub_update.gif'>
-				</div>
+				<br><br><br><br>
+					<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub4/sub3_t.gif'>
+								</div>
 
 				<div class="new_contents">
 					<?php
@@ -47,8 +41,8 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => getOverseasBizCategoryNum(),
-							'posts_per_page' => 3,
+							'cat' => getNorthStoryCategoryNum(),
+							'posts_per_page' => 5,
 							'paged' => $paged
 							)					
 						);
@@ -92,9 +86,11 @@ get_header(); ?>
 					
 					<?php wp_reset_query(); ?>
 				</div> 
-
+		
+							
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
+		
 	</div><!--close subpage_stretched-->
 	<div class="clear"></div>
 <?php get_footer(); ?>

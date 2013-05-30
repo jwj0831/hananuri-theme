@@ -142,6 +142,7 @@
 							?><ul id="submenu4">
 								<li><a id="header_menu4_sub1" href="<?php echo home_url()?>/magazine/peninsula-m"><span>한반도 정세 매거진</span></a></li>
 								<li><a id="header_menu4_sub2" href="<?php echo home_url()?>/magazine/story"><span>하나누리 이야기</span></a></li>
+								<li><a id="header_menu4_sub3" href="<?php echo home_url()?>/magazine/northstory"><span>북녘땅 이야기</span></a></li>
 							</ul></li>';
 							<?php
 								echo '<li><a id="header_menu5';		
@@ -158,16 +159,12 @@
 							<?php
 								echo '<li><a id="';
 								if( is_user_logged_in() ) {
-									echo 'header_logged_in" href="' . wp_logout_url( $redirect ) . '"></a></li>';
+									echo 'header_logged_in" href="' . wp_logout_url( current_page_url() ) . '"></a></li>';
 								}
 								else {
-									echo 'header_logged_out" href="' . home_url() . '/wp-login.php"></a></li>';
+									echo 'header_logged_out" href="' . wp_login_url( current_page_url() ) . '"></a></li>';
 								}
-								
 							?>
-							<!--
-							<li><a id="header_login" href="<?php echo home_url()?>/wp-login.php"></a></li>	
-							-->							
 						</ul>	
 					</nav>
 				</div>

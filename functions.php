@@ -4,14 +4,40 @@
  * 관리자에게만 상단바 보여주기 
  * 
  */
+ /*
 function fn_admin_bar() {
   return (current_user_can("manage_options"))? true : false;
 }
 add_filter('show_admin_bar', 'fn_admin_bar');
+*/
+
+function current_page_url() {
+	$pageURL = 'http';
+	if( isset($_SERVER["HTTPS"]) ) {
+		if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+	}
+	$pageURL .= "://";
+	if ($_SERVER["SERVER_PORT"] != "80") {
+		$pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+	} else {
+		$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+	}
+	return $pageURL;
+}
 
 function getParentCatID() {
 	$category = get_the_category();
-	return $category[0]->cat_ID;
+	if($category[0]->cat_ID == 15)
+		if( $category[0]->cat_ID != null)
+			return $category[2]->cat_ID;
+		else
+			return $category[1]->cat_ID;
+	else {
+		if( $category[1]->cat_ID != null )
+			return $category[1]->cat_ID;
+		else
+			return $category[0]->cat_ID;
+	}
 }
 
 function getDonationPageURL() {
@@ -46,7 +72,7 @@ function getLandLibertyPageNum() {return 43;}
 function getMagazinePageNum() {return 31;}
 function getPeninsulaPageNum() {return 33;}
 function getStoryPageNum() {return 35;}
-
+function getNorthStoryPageNum() {return 822;}
 
 function getSupportPageNum() {return 45;}
 function getPeriodicSupportPageNum() {return 47;}
@@ -66,9 +92,11 @@ function getLandlibertyCategoryNum() {return 9;}
 function getMagazineCategoryNum() {return 10;}
 function getPeninsulaMCategoryNum() {return 11;}
 function getHananuriStoryCategoryNum() {return 12;}
+function getNorthStoryCategoryNum() {return 16;}
 function getDonationCategoryNum() {return 13;}
 function getDonatioinEndCategoryNum() {return 14;}
 function getNoticeCategoryNum() {return 15;}
+
 
 // Changing excerpt length
 function new_excerpt_length($length) {

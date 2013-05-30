@@ -276,6 +276,7 @@
 							?><ul id="submenu4">
 								<li><a id="header_menu4_sub1" href="<?php echo home_url()?>/magazine/peninsula-m"><span>한반도 정세 매거진</span></a></li>
 								<li><a id="header_menu4_sub2" href="<?php echo home_url()?>/magazine/story"><span>하나누리 이야기</span></a></li>
+								<li><a id="header_menu4_sub3" href="<?php echo home_url()?>/magazine/northstory"><span>북녘땅 이야기</span></a></li>
 							</ul></li>';
 							<?php
 								echo '<li><a id="header_menu5';		

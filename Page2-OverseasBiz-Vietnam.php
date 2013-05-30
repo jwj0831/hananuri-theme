@@ -47,7 +47,7 @@ get_header(); ?>
 		                }
 						
 						query_posts(array(
-							'cat' => getOverseasBizVietnamCategoryNum() ,
+							'cat' => getOverseasBizVietnamCategoryNum(),
 							'posts_per_page' => 3,
 							'paged' => $paged
 							)					

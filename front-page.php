@@ -40,7 +40,7 @@
 						$id = get_the_ID();
 						$category = get_the_category($id); ?>
 						<div class="news_row">
-							<span class="new_cat">[<?php echo $category[0]->cat_name ?>]</span> <a href="<?php echo get_permalink($id) ?>" ><?php the_title(); ?></a>
+							<span class="new_cat">[<?php echo $category[1]->cat_name ?>]</span> <a href="<?php echo get_permalink($id) ?>" ><?php the_title(); ?></a>
 						</div>
 						<?php endwhile; ?>
 						<?php wp_reset_query(); ?>

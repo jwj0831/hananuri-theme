@@ -44,12 +44,15 @@
 	  						<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
 			   		 	<?php } ?>
 			    	</div>
-			    	<div class="list">
-			    		<a href="javascript:javascript:history.go(-1)"><img src='<?php bloginfo('template_url'); ?>/images/single/post-lists.gif'></a> 
-			    	</div>
+			    	
 			    	<div class="post-main">			    	
-				        <div class="post-title">
-				          <h2><?php the_title(); ?></h2>
+				        <div class="post-title-row">
+				        	<div class="post-title">
+				        		<h2><?php the_title(); ?></h2>
+				        	</div>
+				        	<div class="post-list">
+				    			<a href="javascript:javascript:history.go(-1)"><img src='<?php bloginfo('template_url'); ?>/images/single/post-lists.gif'></a> 
+				    		</div>
 				        </div>
 				        
 				        <div class="post-meta-data">
