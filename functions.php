@@ -27,8 +27,8 @@ function current_page_url() {
 
 function getParentCatID() {
 	$category = get_the_category();
-	if($category[0]->cat_ID == 15)
-		if( $category[0]->cat_ID != null)
+	if($category[0]->cat_ID == getNoticeCategoryNum())
+		if( $category[2]->cat_ID != null)
 			return $category[2]->cat_ID;
 		else
 			return $category[1]->cat_ID;
@@ -41,7 +41,7 @@ function getParentCatID() {
 }
 
 function getDonationPageURL() {
-	return "http://hananuri07.cafe24.com/support/periodic_support";
+	return "http://www.hananuri.org/support/periodic_support";
 }
 
 

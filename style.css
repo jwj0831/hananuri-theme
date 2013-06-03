@@ -279,15 +279,18 @@ nav ul li img {
 	display: none; 
 	list-style: none;
 	position: absolute;
-	margin-top: -3px;
-	z-index: 9;	
+	opacity: 0;
+	z-index: 3;	
+	-webkit-transition: opacity 2s;
 }
 
 #menu nav ul li:hover ul { 
 	display: block;
+	opacity: 1;
 }
 
 #menu nav ul ul a {
+	z-index: 10;	
 	float:none;
 	background: #424242;
 	display: inline-block;
@@ -298,6 +301,7 @@ nav ul li img {
 	color: #ffffff;
 	text-align: center; 
 	margin-bottom: 1px;
+	margin-top: -3px;
 }
 
 #menu nav ul ul a span {
@@ -1253,12 +1257,11 @@ footer #footer_line .org_info address { font-style: normal; }
 
 .post-title-row {
 	margin: 15px 40px;
-	padding: 10px 0;	
+	padding: 10px 0px 0px 0px;	
 	border-bottom: 1px solid #cfcfcf;
 }
 
 .post-title {
-	max-width: 500px;
 }
 
 .post-title h2{
@@ -1266,6 +1269,10 @@ footer #footer_line .org_info address { font-style: normal; }
 	display: inline;
 }
 
+.post-list{
+	display:block;
+	height: 27px;
+}
 .post-list img {
 	float: right;
 }

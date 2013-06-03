@@ -35,10 +35,12 @@ get_header(); ?>
 	        	        } else {
                         $paged = 1;
 	                }
+					
+					$cat1 = getDonationCategoryNum(); 
+					$cat2 = getDonatioinEndCategoryNum();	
 						
 					query_posts(array(
-						'cat' => getDonationCategoryNum(),
-						'cat' => getDonatioinEndCategoryNum(),
+						'category__in' => array($cat1, $cat2),
 						'posts_per_page' => 8,
 						'paged' => $paged
 						)					

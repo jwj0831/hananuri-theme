@@ -2,6 +2,8 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
+		<meta property="og:image" content="<?php bloginfo('template_url'); ?>/images/thumbnail.jpg" />
+				
 		<?php $image = get_post_meta($post->ID, 'facebookimage', true);
 		if ($image) {
 		echo "<link rel=\"image_src\" href=\"" . $image . "\">";

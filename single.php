@@ -25,6 +25,8 @@
 								echo '홈 > 매거진 > 한반도 정세 매거진';
 							else if($category == getHananuriStoryCategoryNum() )
 								echo '홈 > 매거진 > 하나누리 이야기';
+							else if($category == getNorthStoryCategoryNum() )
+								echo '홈 > 매거진 > 북녘땅 이야기';
 							else if($category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
 								echo '홈 > 후원 > 후원안내';
 						?>
