@@ -97,7 +97,7 @@
             /* Payplus Plugin 실행 */
             if ( MakePayMessage( form ) == true )
             {
-                openwin = window.open( "http://hananuri07.cafe24.com/kcp/proc_win.html", "proc_win", "width=449, height=209, top=300, left=300" );
+                openwin = window.open( "http://www.hannuri.org/kcp/proc_win.html", "proc_win", "width=449, height=209, top=300, left=300" );
                 RetVal = true ;
             }
             
