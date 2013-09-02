@@ -347,6 +347,7 @@
 				                        <option value="북한 인도적 지원">북한 인도적 지원</option>
 				                        <option value="북한 지역 개발 사업">북한 지역 개발 사업</option>
 				                        <option value="해외 어린이 지원 사업">해외 어린이 지원 사업</option>
+				                        <option value="해외 어린이 지원 사업">인도자원봉사후원</option>
 				                    </select>
 								</div>
 								<div class="donate_form_col2">
@@ -361,6 +362,10 @@
 		                        <option value="100000000000">신용카드</option>
 		                        <option value="010000000000">계좌이체</option>
 		                    </select>
+						</div>
+						<div class="donate_form_row">
+						 	<label class="label-name">직접 후원 시</label>
+						 	국민 089501-04-186111 (사)하나누리 / 우리 1005-001-555851 사단법인하나누리
 						</div>
 						<div class="group-title-wrap">
 							<div class="group-title">후원자 정보 </div>

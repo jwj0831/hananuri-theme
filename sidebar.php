@@ -90,11 +90,13 @@
 
 <?php
 	}
-	else if( is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or 
+	else if( 
+			is_page ( getSupportPageNum() ) or // Modification
+			is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or 
 			is_page( getTaxRefundPageNum() ) or $category == getDonationCategoryNum() or
 			$category == getDonatioinEndCategoryNum()
 	){
-		if( is_page( getPeriodicSupportPageNum() ) )
+		if( is_page ( getSupportPageNum() ) or is_page( getPeriodicSupportPageNum() ) )
 			echo '<aside id="periodic_support">';
 		else if( is_page( getTemporalSupportPageNum() ) )
 			echo '<aside id="temporal_support">';

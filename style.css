@@ -314,24 +314,28 @@ nav ul li img {
 	position:relative;
 	left: 0px;
 	width: 120px; 
+
 }
 
 #menu nav ul #submenu2 a {
 	position:relative;
 	left: 232px;
 	width: 120px; 
+
 }
 
 #menu nav ul #submenu3 a {
 	position:relative;
 	left: 397px;
 	width: 130px; 
+
 }
 
 #menu nav ul #submenu4 a {
 	position:relative;
 	left: 540px;
 	width: 130px; 
+
 }
 
 /*
@@ -444,7 +448,7 @@ footer #footer_line .org_info address { font-style: normal; }
 	margin: 13px 0px 0px 10px; 
 }
 
-#main_low .new_contents .new_cat { color: #f05626; }
+#main_low .new_contents .new_cat { color: #f05626;font-size: 12px; }
 
 #main_low .new_contents a 
 {
@@ -1262,6 +1266,9 @@ footer #footer_line .org_info address { font-style: normal; }
 }
 
 .post-title {
+	float:left;
+	margin-top:10px;
+			
 }
 
 .post-title h2{
@@ -1271,7 +1278,8 @@ footer #footer_line .org_info address { font-style: normal; }
 
 .post-list{
 	display:block;
-	height: 27px;
+	height:45px;
+
 }
 .post-list img {
 	float: right;
