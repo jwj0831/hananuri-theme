@@ -1,0 +1,5 @@
+0703-160956 - 19645 - F301173G7H32BoM0 - MSG : TX_START - site_cd=[F3011]+tx_cd=[00100000]+ordr_idxx=[HANANURI201307031372835165265]+log_level=[3]
+0703-160956 - 19645 - F301173G7H32BoM0 - MSG : PG_서버_접속__정상
+0703-160956 - 19645 - F301173G7H32BoM0 - MSG : PG_서버_요청_전문_전송__정상
+0703-160956 - 19645 - F301173G7H32BoM0 - MSG : PG_서버_응답_전문_수신__정상
+0703-160956 - 19645 - F301173G7H32BoM0 - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=HANANURI201307031372835165265res_en_msg=processing completedcard_cd=CCKEcard_name=외환카드acqu_cd=CCKEacqu_name=외환카드card_no=4599504000005547mcht_taxno=1138521083mall_taxno=1018215331ca_order_id=HANANURI201307031372835165265tno=20130703099163amount=200000card_mny=200000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130703160957van_apptime=20130703160957app_no=06258001bizx_numb=00909776395quota=00noinf=Npg_txid=0703160957MP01DHYFXNRF0000002000000006258001partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0join_cd=0000]

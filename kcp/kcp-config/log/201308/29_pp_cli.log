@@ -1,0 +1,5 @@
+0829-101631 - 24502 - F30118TAF1Daoi3O - MSG : TX_START - site_cd=[F3011]+tx_cd=[00100000]+ordr_idxx=[HANANURI201308291377738880580]+log_level=[3]
+0829-101631 - 24502 - F30118TAF1Daoi3O - MSG : PG_서버_접속__정상
+0829-101631 - 24502 - F30118TAF1Daoi3O - MSG : PG_서버_요청_전문_전송__정상
+0829-101631 - 24502 - F30118TAF1Daoi3O - MSG : PG_서버_응답_전문_수신__정상
+0829-101631 - 24502 - F30118TAF1Daoi3O - MSG : TX_ENDED - res=[res_cd=8105res_msg=포맷에러(지불|신용카드|금액)res_en_msg=format error(payment l credit card l amount)]

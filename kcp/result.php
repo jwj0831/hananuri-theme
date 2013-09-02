@@ -391,8 +391,8 @@
             <table width="85%" align="center" class="margin_top_10">
 					<tr>
 						<td style="text-align:center">
-							<a href="http://hananuri07.cafe24.com" class="result_btn"><span>홈페이지</span></a>
-							<a href="http://hananuri07.cafe24.com/support/refund" class="result_btn"><span>소득공제 정보입력</span></a>
+							<a href="http://www.hananuri.org" class="result_btn"><span>홈페이지</span></a>
+							<a href="http://www.hananuri.org/support/refund" class="result_btn"><span>소득공제 정보입력</span></a>
 						</td>
 					</tr>
             </table>

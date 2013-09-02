@@ -1,0 +1,15 @@
+0605-101249 - 28315 - T0000659AOAGTHNh - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[HANANURI201306051370394458390]+log_level=[3]
+0605-101249 - 28315 - T0000659AOAGTHNh - MSG : PG_서버_접속__정상
+0605-101249 - 28315 - T0000659AOAGTHNh - MSG : PG_서버_요청_전문_전송__정상
+0605-101254 - 28315 - T0000659AOAGTHNh - MSG : PG_서버_응답_전문_수신__정상
+0605-101254 - 28315 - T0000659AOAGTHNh - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PABKorder_no=HANANURI201306051370394458390tno=20130605996840app_time=20130605101254amount=10000bk_mny=10000coupon_mny=0bk_tid=0303668bank_code=BK11bank_name=농협중앙회bank_com_type=0bank_com_code=11escw_yn=Nvan_apptime=20130605101254mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1138521083]
+0605-103320 - 10920 - F301165AWVFEfqOR - MSG : TX_START - site_cd=[F3011]+tx_cd=[00100000]+ordr_idxx=[HANANURI201306051370395917597]+log_level=[3]
+0605-103320 - 10920 - F301165AWVFEfqOR - MSG : PG_서버_접속__정상
+0605-103320 - 10920 - F301165AWVFEfqOR - MSG : PG_서버_요청_전문_전송__정상
+0605-103321 - 10920 - F301165AWVFEfqOR - MSG : PG_서버_응답_전문_수신__정상
+0605-103321 - 10920 - F301165AWVFEfqOR - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=HANANURI201306051370395917597res_en_msg=processing completedcard_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=5021234100008124mcht_taxno=1138521083mall_taxno=1018215331ca_order_id=HANANURI201306051370395917597tno=20130605310909amount=10000card_mny=10000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130605103321van_apptime=20130605103321app_no=30024229bizx_numb=00013219101quota=00noinf=Npg_txid=0605103321MP01EHU3KXT20000000100000030024229partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1isp_partner_cd=050204040015536join_cd=0000]
+0605-104728 - 21371 - F3011659kMAGTHNh - MSG : TX_START - site_cd=[F3011]+tx_cd=[00100000]+ordr_idxx=[HANANURI201306051370396184959]+log_level=[3]
+0605-104728 - 21371 - F3011659kMAGTHNh - MSG : PG_서버_접속__정상
+0605-104728 - 21371 - F3011659kMAGTHNh - MSG : PG_서버_요청_전문_전송__정상
+0605-104729 - 21371 - F3011659kMAGTHNh - MSG : PG_서버_응답_전문_수신__정상
+0605-104729 - 21371 - F3011659kMAGTHNh - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PABKorder_no=HANANURI201306051370396184959tno=20130605317137app_time=20130605104729amount=10000bk_mny=10000coupon_mny=0bk_tid=7983903bank_code=BK11bank_name=농협중앙회bank_com_type=0bank_com_code=11escw_yn=Nvan_apptime=20130605104729mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1018215331]

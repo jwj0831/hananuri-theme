@@ -1,0 +1,5 @@
+0801-165413 -  4413 - F301181GqF77FR8f - MSG : TX_START - site_cd=[F3011]+tx_cd=[00100000]+ordr_idxx=[HANANURI201308011375343455830]+log_level=[3]
+0801-165413 -  4413 - F301181GqF77FR8f - MSG : PG_서버_접속__정상
+0801-165413 -  4413 - F301181GqF77FR8f - MSG : PG_서버_요청_전문_전송__정상
+0801-165414 -  4413 - F301181GqF77FR8f - MSG : PG_서버_응답_전문_수신__정상
+0801-165414 -  4413 - F301181GqF77FR8f - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PABKorder_no=HANANURI201308011375343455830tno=20130801509229app_time=20130801165414amount=500000bk_mny=500000coupon_mny=0bk_tid=0736185bank_code=BK04bank_name=국민은행bank_com_type=0bank_com_code=04escw_yn=Nvan_apptime=20130801165414mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1018215331]

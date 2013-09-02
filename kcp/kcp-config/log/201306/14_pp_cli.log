@@ -1,0 +1,5 @@
+0614-134955 - 17668 - F30116EDib8ffK6l - MSG : TX_START - site_cd=[F3011]+tx_cd=[00100000]+ordr_idxx=[HANANURI201306141371184991329]+log_level=[3]
+0614-134955 - 17668 - F30116EDib8ffK6l - MSG : PG_서버_접속__정상
+0614-134955 - 17668 - F30116EDib8ffK6l - MSG : PG_서버_요청_전문_전송__정상
+0614-134957 - 17668 - F30116EDib8ffK6l - MSG : PG_서버_응답_전문_수신__정상
+0614-134957 - 17668 - F30116EDib8ffK6l - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=HANANURI201306141371184991329res_en_msg=processing completedcard_cd=CCBCcard_name=BC카드acqu_cd=CCBCacqu_name=BC카드card_no=9440710000003799mcht_taxno=1138521083mall_taxno=1018215331ca_order_id=HANANURI201306141371184991329tno=20130614139981amount=43000card_mny=43000coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130614134956van_apptime=20130614134956app_no=40176236bizx_numb=725479023quota=00noinf=Npg_txid=0614134956MP01FJ75KF1Q0000000430000040176236partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1isp_issuer_cd=BC71isp_issuer_nm=우체국비씨isp_partner_cd=000100717100021join_cd=0000]

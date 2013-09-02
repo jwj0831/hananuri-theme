@@ -1,0 +1,130 @@
+0524-030105 - 21402 - T00005O30d6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369332018378]+log_level=[3]
+0524-030105 - 21402 - T00005O30d6BGghP - MSG : PG_서버_접속__정상
+0524-030105 - 21402 - T00005O30d6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-030106 - 21402 - T00005O30d6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-030106 - 21402 - T00005O30d6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369332018378tno=20130524989534van_code=VNDNvan_apptime=20130524030106app_time=20130524030106amount=1004hp_tid=052403005040034900hp_app_time=20130524030106pg_txid=KCPPG20130524989534T00000020130524030106van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-030650 - 25088 - T00005O36Q6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369332365007]+log_level=[3]
+0524-030650 - 25088 - T00005O36Q6BGghP - MSG : PG_서버_접속__정상
+0524-030650 - 25088 - T00005O36Q6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-030650 - 25088 - T00005O36Q6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-030650 - 25088 - T00005O36Q6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369332365007tno=20130524989539van_code=VNDNvan_apptime=20130524030651app_time=20130524030651amount=1004hp_tid=052403063710013370hp_app_time=20130524030651pg_txid=KCPPG20130524989539T00000020130524030651van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-030932 - 25908 - T00005O3956BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369332528193]+log_level=[3]
+0524-030932 - 25908 - T00005O3956BGghP - MSG : PG_서버_접속__정상
+0524-030932 - 25908 - T00005O3956BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-030932 - 25908 - T00005O3956BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-030932 - 25908 - T00005O3956BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369332528193tno=20130524989542van_code=VNDNvan_apptime=20130524030932app_time=20130524030932amount=1004hp_tid=052403092040062890hp_app_time=20130524030932pg_txid=KCPPG20130524989542T00000020130524030932van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-031427 - 30883 - T00005O3DaFEfqOR - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369332799602]+log_level=[3]
+0524-031427 - 30883 - T00005O3DaFEfqOR - MSG : PG_서버_접속__정상
+0524-031427 - 30883 - T00005O3DaFEfqOR - MSG : PG_서버_요청_전문_전송__정상
+0524-031427 - 30883 - T00005O3DaFEfqOR - MSG : PG_서버_응답_전문_수신__정상
+0524-031427 - 30883 - T00005O3DaFEfqOR - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369332799602tno=20130524989545van_code=VNDNvan_apptime=20130524031428app_time=20130524031428amount=1004hp_tid=052403140710039400hp_app_time=20130524031428pg_txid=KCPPG20130524989545T00000020130524031428van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-033508 - 15371 - T00005O3Yn6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369334040573]+log_level=[3]
+0524-033508 - 15371 - T00005O3Yn6BGghP - MSG : PG_서버_접속__정상
+0524-033509 - 15371 - T00005O3Yn6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-033514 - 15371 - T00005O3Yn6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-033514 - 15371 - T00005O3Yn6BGghP - MSG : TX_ENDED - res=[res_cd=CC72res_msg=카드사 TIME-OUTpay_method=PACAorder_no=201305241369334040573res_en_msg=card company`s TIME-OUTtrade_seq=20130524989546card_cd=ISKCcard_name=기타카드]
+0524-033636 - 17340 - T00005O3aE6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369334156856]+log_level=[3]
+0524-033636 - 17340 - T00005O3aE6BGghP - MSG : PG_서버_접속__정상
+0524-033636 - 17340 - T00005O3aE6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-033636 - 17340 - T00005O3aE6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-033636 - 17340 - T00005O3aE6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=201305241369334156856res_en_msg=processing completedcard_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=5021234100008124mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=201305241369334156856tno=20130524989547amount=1004card_mny=1004coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130524033636van_apptime=20130524033636app_no=47092834bizx_numb=00013219101quota=00noinf=Npg_txid=0524033636MP01ABCJESA50000000010040047092834partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1isp_partner_cd=050204040015536join_cd=0000]
+0524-035431 - 29253 - T00005O3s26BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369335220395]+log_level=[3]
+0524-035431 - 29253 - T00005O3s26BGghP - MSG : PG_서버_접속__정상
+0524-035431 - 29253 - T00005O3s26BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-035432 - 29253 - T00005O3s26BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-035432 - 29253 - T00005O3s26BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369335220395tno=20130524989552van_code=VNDNvan_apptime=20130524035432app_time=20130524035432amount=1004hp_tid=052403541610156200hp_app_time=20130524035432pg_txid=KCPPG20130524989552T00000020130524035432van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-035628 - 30990 - T00005O3u06BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369335342619]+log_level=[3]
+0524-035628 - 30990 - T00005O3u06BGghP - MSG : PG_서버_접속__정상
+0524-035628 - 30990 - T00005O3u06BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-035629 - 30990 - T00005O3u06BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-035629 - 30990 - T00005O3u06BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369335342619tno=20130524989555van_code=VNDNvan_apptime=20130524035629app_time=20130524035629amount=1004hp_tid=052403561410161230hp_app_time=20130524035629pg_txid=KCPPG20130524989555T00000020130524035629van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-035840 - 31618 - T00005O3wK6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369335476717]+log_level=[3]
+0524-035840 - 31618 - T00005O3wK6BGghP - MSG : PG_서버_접속__정상
+0524-035841 - 31618 - T00005O3wK6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-035846 - 31618 - T00005O3wK6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-035846 - 31618 - T00005O3wK6BGghP - MSG : TX_ENDED - res=[res_cd=CC72res_msg=카드사 TIME-OUTpay_method=PACAorder_no=201305241369335476717res_en_msg=card company`s TIME-OUTtrade_seq=20130524989556card_cd=ISKCcard_name=기타카드]
+0524-035940 - 32270 - T00005O3xI6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369335546145]+log_level=[3]
+0524-035940 - 32270 - T00005O3xI6BGghP - MSG : PG_서버_접속__정상
+0524-035940 - 32270 - T00005O3xI6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-035940 - 32270 - T00005O3xI6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-035940 - 32270 - T00005O3xI6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=201305241369335546145res_en_msg=processing completedcard_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=5021234100008124mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=201305241369335546145tno=20130524989557amount=1004card_mny=1004coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130524035940van_apptime=20130524035940app_no=21719590bizx_numb=00013219101quota=00noinf=Npg_txid=0524035940MP01ADCK8GDE0000000010040021719590partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1isp_partner_cd=050204040015536join_cd=0000]
+0524-040310 - 13964 - T00005O42d6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369335736739]+log_level=[3]
+0524-040310 - 13964 - T00005O42d6BGghP - MSG : PG_서버_접속__정상
+0524-040310 - 13964 - T00005O42d6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-040311 - 13964 - T00005O42d6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-040311 - 13964 - T00005O42d6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369335736739tno=20130524989563van_code=VNDNvan_apptime=20130524040311app_time=20130524040311amount=1004hp_tid=052404025340220420hp_app_time=20130524040311pg_txid=KCPPG20130524989563T00000020130524040311van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-040613 - 16063 - T00005O45k6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369335925527]+log_level=[3]
+0524-040613 - 16063 - T00005O45k6BGghP - MSG : PG_서버_접속__정상
+0524-040613 - 16063 - T00005O45k6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-040613 - 16063 - T00005O45k6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-040613 - 16063 - T00005O45k6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369335925527tno=20130524989566van_code=VNDNvan_apptime=20130524040614app_time=20130524040614amount=1004hp_tid=052404055910188570hp_app_time=20130524040614pg_txid=KCPPG20130524989566T00000020130524040614van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-040807 - 16842 - T00005O47Y6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369336034915]+log_level=[3]
+0524-040807 - 16842 - T00005O47Y6BGghP - MSG : PG_서버_접속__정상
+0524-040807 - 16842 - T00005O47Y6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-040808 - 16842 - T00005O47Y6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-040808 - 16842 - T00005O47Y6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369336034915tno=20130524989569van_code=VNDNvan_apptime=20130524040808app_time=20130524040808amount=1004hp_tid=052404075510193630hp_app_time=20130524040808pg_txid=KCPPG20130524989569T00000020130524040808van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-040953 - 17263 - T00005O49X6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369336151732]+log_level=[3]
+0524-040953 - 17263 - T00005O49X6BGghP - MSG : PG_서버_접속__정상
+0524-040953 - 17263 - T00005O49X6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-040958 - 17263 - T00005O49X6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-040958 - 17263 - T00005O49X6BGghP - MSG : TX_ENDED - res=[res_cd=CC72res_msg=카드사 TIME-OUTpay_method=PACAorder_no=201305241369336151732res_en_msg=card company`s TIME-OUTtrade_seq=20130524989570card_cd=ISKCcard_name=기타카드]
+0524-041101 - 18982 - T00005O4Ag6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369336222052]+log_level=[3]
+0524-041101 - 18982 - T00005O4Ag6BGghP - MSG : PG_서버_접속__정상
+0524-041101 - 18982 - T00005O4Ag6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-041101 - 18982 - T00005O4Ag6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-041101 - 18982 - T00005O4Ag6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=201305241369336222052res_en_msg=processing completedcard_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=5021234100008124mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=201305241369336222052tno=20130524989571amount=1004card_mny=1004coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130524041101van_apptime=20130524041101app_no=39820892bizx_numb=00013219101quota=00noinf=Npg_txid=0524041101MP01AFCKN1RD0000000010040039820892partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1isp_partner_cd=050204040015536join_cd=0000]
+0524-041259 - 19600 - T00005O4Cc6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369336335269]+log_level=[3]
+0524-041259 - 19600 - T00005O4Cc6BGghP - MSG : PG_서버_접속__정상
+0524-041259 - 19600 - T00005O4Cc6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-041300 - 19600 - T00005O4Cc6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-041300 - 19600 - T00005O4Cc6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=201305241369336335269res_en_msg=processing completedcard_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=5021234100008124mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=201305241369336335269tno=20130524989572amount=1004card_mny=1004coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130524041300van_apptime=20130524041300app_no=17692773bizx_numb=00013219101quota=00noinf=Npg_txid=0524041300MP01AGCKPLDE0000000010040017692773partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1isp_partner_cd=050204040015536join_cd=0000]
+0524-041659 - 21935 - T00005O4GV6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369336574742]+log_level=[3]
+0524-041659 - 21935 - T00005O4GV6BGghP - MSG : PG_서버_접속__정상
+0524-041659 - 21935 - T00005O4GV6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-041700 - 21935 - T00005O4GV6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-041700 - 21935 - T00005O4GV6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369336574742tno=20130524989575van_code=VNDNvan_apptime=20130524041700app_time=20130524041700amount=1004hp_tid=052404164440255000hp_app_time=20130524041700pg_txid=KCPPG20130524989575T00000020130524041700van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-042009 - 23901 - T00005O4Je6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369336762346]+log_level=[3]
+0524-042009 - 23901 - T00005O4Je6BGghP - MSG : PG_서버_접속__정상
+0524-042009 - 23901 - T00005O4Je6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-042010 - 23901 - T00005O4Je6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-042010 - 23901 - T00005O4Je6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369336762346tno=20130524989578van_code=VNDNvan_apptime=20130524042010app_time=20130524042010amount=1004hp_tid=052404195710223580hp_app_time=20130524042010pg_txid=KCPPG20130524989578T00000020130524042010van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-042505 - 26887 - T00005O4Ob6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369337064509]+log_level=[3]
+0524-042505 - 26887 - T00005O4Ob6BGghP - MSG : PG_서버_접속__정상
+0524-042505 - 26887 - T00005O4Ob6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-042506 - 26887 - T00005O4Ob6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-042506 - 26887 - T00005O4Ob6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369337064509tno=20130524989581van_code=VNDNvan_apptime=20130524042506app_time=20130524042506amount=1004hp_tid=052404244910236360hp_app_time=20130524042506pg_txid=KCPPG20130524989581T00000020130524042506van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-042619 - 27854 - T00005O4Pt6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369337131664]+log_level=[3]
+0524-042619 - 27854 - T00005O4Pt6BGghP - MSG : PG_서버_접속__정상
+0524-042619 - 27854 - T00005O4Pt6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-042620 - 27854 - T00005O4Pt6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-042620 - 27854 - T00005O4Pt6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369337131664tno=20130524989584van_code=VNDNvan_apptime=20130524042621app_time=20130524042621amount=1004hp_tid=052404260710239450hp_app_time=20130524042621pg_txid=KCPPG20130524989584T00000020130524042621van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-050645 - 21512 - T00005O56L6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369339552018]+log_level=[3]
+0524-050645 - 21512 - T00005O56L6BGghP - MSG : PG_서버_접속__정상
+0524-050645 - 21512 - T00005O56L6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-050646 - 21512 - T00005O56L6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-050646 - 21512 - T00005O56L6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369339552018tno=20130524989595van_code=VNDNvan_apptime=20130524050647app_time=20130524050647amount=1004hp_tid=052405063210039670hp_app_time=20130524050647pg_txid=KCPPG20130524989595T00000020130524050647van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-050804 - 22128 - T00005O57Q6BGghP - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369339626261]+log_level=[3]
+0524-050804 - 22128 - T00005O57Q6BGghP - MSG : PG_서버_접속__정상
+0524-050804 - 22128 - T00005O57Q6BGghP - MSG : PG_서버_요청_전문_전송__정상
+0524-050804 - 22128 - T00005O57Q6BGghP - MSG : PG_서버_응답_전문_수신__정상
+0524-050804 - 22128 - T00005O57Q6BGghP - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369339626261tno=20130524989599van_code=VNDNvan_apptime=20130524050805app_time=20130524050805amount=1004hp_tid=052405074040078680hp_app_time=20130524050805pg_txid=KCPPG20130524989599T00000020130524050805van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-053257 -  4536 - T00005O5WQ0BOTsj - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369341124175]+log_level=[3]
+0524-053257 -  4536 - T00005O5WQ0BOTsj - MSG : PG_서버_접속__정상
+0524-053257 -  4536 - T00005O5WQ0BOTsj - MSG : PG_서버_요청_전문_전송__정상
+0524-053257 -  4536 - T00005O5WQ0BOTsj - MSG : PG_서버_응답_전문_수신__정상
+0524-053257 -  4536 - T00005O5WQ0BOTsj - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369341124175tno=20130524989602van_code=VNDNvan_apptime=20130524053258app_time=20130524053258amount=1004hp_tid=052405324210099390hp_app_time=20130524053258pg_txid=KCPPG20130524989602T00000020130524053258van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
+0524-113933 - 13973 - T00005OBd5Daoi3O - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369363102627]+log_level=[3]
+0524-113933 - 13973 - T00005OBd5Daoi3O - MSG : PG_서버_접속__정상
+0524-113933 - 13973 - T00005OBd5Daoi3O - MSG : PG_서버_요청_전문_전송__정상
+0524-113933 - 13973 - T00005OBd5Daoi3O - MSG : PG_서버_응답_전문_수신__정상
+0524-113933 - 13973 - T00005OBd5Daoi3O - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=201305241369363102627res_en_msg=processing completedcard_cd=CCLGcard_name=신한카드acqu_cd=CCLGacqu_name=신한카드card_no=4518427700003021mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=201305241369363102627tno=20130524989748amount=1004card_mny=1004coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130524113934van_apptime=20130524113934app_no=06377099bizx_numb=0013425574quota=00noinf=Npg_txid=0524113934MP01AFD0NVGI0000000010040006377099partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0join_cd=0000]
+0524-114218 - 17965 - T00005OBfqDaoi3O - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369363275984]+log_level=[3]
+0524-114218 - 17965 - T00005OBfqDaoi3O - MSG : PG_서버_접속__정상
+0524-114218 - 17965 - T00005OBfqDaoi3O - MSG : PG_서버_요청_전문_전송__정상
+0524-114218 - 17965 - T00005OBfqDaoi3O - MSG : PG_서버_응답_전문_수신__정상
+0524-114218 - 17965 - T00005OBfqDaoi3O - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PACAorder_no=201305241369363275984res_en_msg=processing completedcard_cd=CCLGcard_name=신한카드acqu_cd=CCLGacqu_name=신한카드card_no=4518427700003021mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=201305241369363275984tno=20130524989752amount=1004card_mny=1004coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20130524114219van_apptime=20130524114219app_no=51952028bizx_numb=0013425574quota=00noinf=Npg_txid=0524114219MP01AID0RER30000000010040051952028partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0join_cd=0000]
+0524-150125 - 20445 - T00005OF0I26s1lr - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[201305241369375193390]+log_level=[3]
+0524-150125 - 20445 - T00005OF0I26s1lr - MSG : PG_서버_접속__정상
+0524-150125 - 20445 - T00005OF0I26s1lr - MSG : PG_서버_요청_전문_전송__정상
+0524-150125 - 20445 - T00005OF0I26s1lr - MSG : PG_서버_응답_전문_수신__정상
+0524-150125 - 20445 - T00005OF0I26s1lr - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리pay_method=PAMCorder_no=201305241369375193390tno=20130524989956van_code=VNDNvan_apptime=20130524150126app_time=20130524150126amount=1004hp_tid=052415005310022660hp_app_time=20130524150126pg_txid=KCPPG20130524989956T00000020130524150126van_id=ES02van_cd=VNDNbizx_numb=22S1P50001commid=KTFmobile_no=01071016643mcht_taxno=1138521083mall_taxno=1138521083]
