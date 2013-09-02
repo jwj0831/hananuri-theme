@@ -1,6 +1,8 @@
 <?php
 	setlocale(LC_ALL, "ko_KR.utf-8");
-
+require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-config.php');
+require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-includes/wp-db.php');
+require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-load.php');
     /* ============================================================================== */
     /* =   PAGE : 결과 처리 PAGE                                                    = */
     /* = -------------------------------------------------------------------------- = */
@@ -33,6 +35,17 @@
     $buyr_tel1        = $_POST[ "buyr_tel1"      ];      // 구매자 전화번호
     $buyr_tel2        = $_POST[ "buyr_tel2"      ];      // 구매자 휴대폰번호
     $buyr_mail        = $_POST[ "buyr_mail"      ];      // 구매자 E-Mail
+
+    // Custom 변수
+    
+    $db_name        = $_POST[ "db_name"        ]; // 주문자 주민등록번호
+    $db_mny        = $_POST[ "db_mny"        ]; // 주문자 주민등록번호
+    $db_sn        = $_POST[ "db_sn"        ]; // 주문자 주민등록번호
+    $db_tel        = $_POST[ "db_tel"        ]; // 주문자 주민등록번호
+    $db_addr      = $_POST[ "db_addr"      ]; // 주문자 주소
+    $db_phone        = $_POST[ "db_phone"        ]; // 주문자 주민등록번호
+    $db_mail        = $_POST[ "db_mail"        ]; // 주문자 주민등록번호
+
     /* = -------------------------------------------------------------------------- = */
 	// 공통
 	$pnt_issue        = $_POST[ "pnt_issue"      ];      // 포인트 서비스사
@@ -89,6 +102,7 @@
 		$bank_name = iconv("EUC-KR", "UTF-8",$bank_name);
 	}
 	
+
     $req_tx_name = "";
 
     if( $req_tx == "pay" )
@@ -386,13 +400,26 @@
 	/* = -------------------------------------------------------------------------- = */
     /* =   01. 결제 결과 출력 END                                                   = */
     /* ============================================================================== */    
+
+
+?>
+
+<?
+
+global $wpdb;
+$table_name = $wpdb->prefix . "refund_info";
+
+$wpdb->insert($table_name, array( 'name' => $db_name, 'amount' => $db_mny, 'social_number' => $db_sn,
+                        'address' => $db_addr, 'tel' => $db_tel, 'phone' => $db_phone, 'mail' => $db_mail ) );
+
+
 ?>
             
             <table width="85%" align="center" class="margin_top_10">
-					<tr>
+                    <tr>
 						<td style="text-align:center">
 							<a href="http://www.hananuri.org" class="result_btn"><span>홈페이지</span></a>
-							<a href="http://www.hananuri.org/support/refund" class="result_btn"><span>소득공제 정보입력</span></a>
+							<!--<a href="http://www.hananuri.org/support/refund" class="result_btn"><span>소득공제 정보입력</span></a>-->
 						</td>
 					</tr>
             </table>

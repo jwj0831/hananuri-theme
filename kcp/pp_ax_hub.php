@@ -43,6 +43,19 @@
     $buyr_tel1      = $_POST[ "buyr_tel1"      ]; // 주문자 전화번호
     $buyr_tel2      = $_POST[ "buyr_tel2"      ]; // 주문자 핸드폰 번호
     $buyr_mail      = $_POST[ "buyr_mail"      ]; // 주문자 E-mail 주소
+    // Custom 변수
+    $buyr_sn        = $_POST[ "buyr_sn"        ]; // 주문자 주민등록번호
+    $buyr_addr      = $_POST[ "buyr_addr"      ]; // 주문자 주소
+
+    $db_name = $buyr_name;
+    $db_mny = $good_mny;
+    $db_sn = $buyr_sn;
+    $db_tel = $buyr_tel1;
+    $db_phone = $buyr_tel2;
+    $db_addr = $buyr_addr;
+    $db_mail = $buyr_mail;
+
+
     /* = -------------------------------------------------------------------------- = */
     $mod_type       = $_POST[ "mod_type"       ]; // 변경TYPE VALUE 승인취소시 필요
     $mod_desc       = $_POST[ "mod_desc"       ]; // 변경사유
@@ -92,10 +105,11 @@
     $cash_tr_code   = $_POST[ "cash_tr_code"   ]; // 현금 영수증 발행 구분
     $cash_id_info   = $_POST[ "cash_id_info"   ]; // 현금 영수증 등록 번호
 
+
 	$good_name = iconv("UTF-8", "EUC-KR",$good_name);
     $buyr_name = iconv("UTF-8", "EUC-KR",$buyr_name); 
     $use_pay_method = iconv("UTF-8", "EUC-KR",$use_pay_method); 
-	
+
 		
     /* ============================================================================== */
     /* ============================================================================== */
@@ -344,7 +358,7 @@
         <script type="text/javascript">
             function goResult()
             {
-                var openwin = window.open( 'http://hananuri07.cafe24.com/kcp/proc_win.html', 'proc_win', '' )
+                var openwin = window.open( 'http://www.hananuri.org/kcp/proc_win.html', 'proc_win', '' )
                 document.pay_info.submit()
                 openwin.close()
             }
@@ -380,9 +394,28 @@
 		$bank_name = iconv("EUC-KR", "UTF-8",$bank_name);
 	}
 ?>
+<?
+
+if($req_tx == "pay")
+    {
+        //업체 DB 처리 실패
+        if($bSucc == "false")
+        {
+            if ($res_cd == "0000")
+            {
+                $res_msg_bsucc = "결제는 정상적으로 이루어졌지만 업체에서 결제 결과를 처리하는 중 오류가 발생하여 시스템에서 자동으로 취소 요청을 하였습니다. <br> 업체로 문의하여 확인하시기 바랍니다.";
+            }
+            else
+            {
+                $res_msg_bsucc = "결제는 정상적으로 이루어졌지만 업체에서 결제 결과를 처리하는 중 오류가 발생하여 시스템에서 자동으로 취소 요청을 하였으나, <br> <b>취소가 실패 되었습니다.</b><br> 업체로 문의하여 확인하시기 바랍니다.";
+            }
+        }
+    }
+
+?>
 
     <body onload="goResult()">
-    <form name="pay_info" method="post" action="http://hananuri07.cafe24.com/kcp/result.php">
+    <form name="pay_info" method="post" action="http://www.hananuri.org/kcp/result.php">
 		<input type="hidden" name="site_cd"           value="<?=$g_conf_site_cd ?>">    <!-- 사이트코드 -->
         <input type="hidden" name="req_tx"            value="<?=$req_tx         ?>">    <!-- 요청 구분 -->
         <input type="hidden" name="use_pay_method"    value="<?=$use_pay_method ?>">    <!-- 사용한 결제 수단 -->
@@ -399,7 +432,7 @@
         <input type="hidden" name="buyr_tel1"         value="<?=$buyr_tel1      ?>">    <!-- 주문자 전화번호 -->
         <input type="hidden" name="buyr_tel2"         value="<?=$buyr_tel2      ?>">    <!-- 주문자 휴대폰번호 -->
         <input type="hidden" name="buyr_mail"         value="<?=$buyr_mail      ?>">    <!-- 주문자 E-mail -->
-
+       
         <input type="hidden" name="card_cd"           value="<?=$card_cd        ?>">    <!-- 카드코드 -->
         <input type="hidden" name="card_name"         value="<?=$card_name      ?>">    <!-- 카드명 -->
         <input type="hidden" name="app_time"          value="<?=$app_time       ?>">    <!-- 승인시간 -->
@@ -437,6 +470,15 @@
         <input type="hidden" name="cash_authno"       value="<?=$cash_authno    ?>">    <!-- 현금 영수증 승인 번호 -->
         <input type="hidden" name="cash_tr_code"      value="<?=$cash_tr_code   ?>">    <!-- 현금 영수증 발행 구분 -->
         <input type="hidden" name="cash_id_info"      value="<?=$cash_id_info   ?>">    <!-- 현금 영수증 등록 번호 -->
+
+
+        <input type="hidden" name="db_name"      value="<?=$db_name   ?>">
+        <input type="hidden" name="db_mny"      value="<?=$db_mny   ?>">
+        <input type="hidden" name="db_sn"      value="<?=$db_sn   ?>">
+        <input type="hidden" name="db_addr"      value="<?=$db_addr   ?>">
+        <input type="hidden" name="db_tel"      value="<?=$db_tel   ?>">
+        <input type="hidden" name="db_phone"      value="<?=$db_phone   ?>">
+        <input type="hidden" name="db_mail"      value="<?=$db_mail   ?>">
     </form>
     </body>
     </html>

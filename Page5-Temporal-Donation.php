@@ -92,12 +92,10 @@
         {
             var RetVal = false;
 
-
-
             /* Payplus Plugin 실행 */
             if ( MakePayMessage( form ) == true )
             {
-                openwin = window.open( "http://www.hannuri.org/kcp/proc_win.html", "proc_win", "width=449, height=209, top=300, left=300" );
+                openwin = window.open( "http://www.hananuri.org/kcp/proc_win.html", "proc_win", "width=449, height=209, top=300, left=300" );
                 RetVal = true ;
             }
             
@@ -345,7 +343,7 @@
 								<div class="donate_form_col1">
 									<label class="label-name">후원분야  <span class="reqiured">*</span></label>
 									<select name="good_name" class="select_btn">
-				                        <option value="일반후원">일반후원</option>
+				                        <option value="일반후원" selected="selected">일반후원</option>
 				                        <option value="북한 인도적 지원">북한 인도적 지원</option>
 				                        <option value="북한 지역 개발 사업">북한 지역 개발 사업</option>
 				                        <option value="해외 어린이 지원 사업">해외 어린이 지원 사업</option>
@@ -361,7 +359,7 @@
 					 	<div class="donate_form_row">
 						 	<label class="label-name">후원방법 <span class="reqiured">*</span></label>
 						 	<select name="pay_method" class="select_btn">
-		                        <option value="100000000000">신용카드</option>
+		                        <option value="100000000000" selected="selected">신용카드</option>
 		                        <option value="010000000000">계좌이체</option>
 		                    </select>
 						</div>
@@ -378,17 +376,28 @@
 							 	<input class="textfield" type='text' name='buyr_name' size=18 required itemname="이름" value=""/>
 						 	</div>
 						 	<div class="donate_form_col2">
-						 		<label class="label-name">연락처 <span class="reqiured">*</span></label>
-						 		<input class="textfield" type='text' name='buyr_tel1' size=18 required itemname="연락처" value=""/>
+						 		<label class="label-name">이메일 <span class="reqiured">*</span></label>
+						 		<input class="textfield" type='text' name='buyr_mail' size=30 required itemname="이메일" value=""/>
 					 		</div>
 					 	</div>
 					 	<div class="donate_form_row">
-						 	<label class="label-name">이메일 <span class="reqiured">*</span></label>
-						 	<input class="textfield" type='text' name='buyr_mail' size=30 required itemname="이메일" value=""/>
+					 		<div class="donate_form_col1">
+							 	<label class="label-name">연락처 <span class="reqiured">*</span></label>
+						 		<input class="textfield" type='text' name='buyr_tel1' size=18 required itemname="연락처" value=""/>
+						 	</div>
+						 	<div class="donate_form_col2">
+						 		<label class="label-name">휴대폰</label>
+						 		<input class="textfield" type='text' name='buyr_tel2' size=18 itemname="휴대폰" value=""/>
+					 		</div>
+						 	
+					 	</div>
+					 	<div class="donate_form_row">
+						 	<label class="label-name">주민등록번호 <span class="reqiured">(소득공제 요청시 필수)</span></label>
+						 	<input class="textfield" type='text' name='buyr_sn' size=30 itemname="주민등록번호" value=""/>
 					 	</div>
 					 	<div class="donate_form_row">
 						 	<label class="label-name">우편물수령지(선택)</label>
-						 	<input class="textfield" type='text' name='buyr_address' size=80 itemname="주소" value=""/>
+						 	<input class="textfield" type='text' name='buyr_addr' size=80 itemname="주소" value=""/>
 					 	</div>
 						
 					 	<div class="submit_row">
