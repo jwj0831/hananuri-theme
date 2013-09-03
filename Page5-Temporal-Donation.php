@@ -38,21 +38,21 @@
 				 * Print the <title> tag based on what is being viewed.
 				 */
 				global $page, $paged;
-			
+
 				wp_title( '|', true, 'right' );
-			
+
 				// Add the blog name.
 				bloginfo( 'name' );
-			
+
 				// Add the blog description for the home/front page.
 				$site_description = get_bloginfo( 'description', 'display' );
 				if ( $site_description && ( is_home() || is_front_page() ) )
 					echo " | $site_description";
-			
+
 				// Add a page number if necessary:
 				if ( $paged >= 2 || $page >= 2 )
 					echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
-			
+
 				?>
 			</title>
 		
@@ -505,7 +505,7 @@
     <input type="hidden" name="wish_vbank_list" value="05:03:04:07:11:23:26:32:34:81:71"/>
 <?
     
-	
+
 	/*  가상계좌 입금 기한 설정하는 파라미터 - 발급일 + 3일
     <input type="hidden" name="vcnt_expire_term" value="3"/> */
 

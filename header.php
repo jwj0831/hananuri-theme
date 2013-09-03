@@ -37,7 +37,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-		
+
 	<!-- Pulled from http://code.google.com/p/html5shiv/ -->
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>

@@ -78,6 +78,7 @@ function getSupportPageNum() {return 45;}
 function getPeriodicSupportPageNum() {return 47;}
 function getTemporalSupportPageNum() {return 49;}
 function getKnitMufflersPageNum() {return 1386;}
+function getMufflerPayPageNum() {return 1388;}
 function getTaxRefundPageNum() {return 59;}
 
 

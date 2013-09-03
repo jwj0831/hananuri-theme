@@ -60,21 +60,21 @@
     /* = -------------------------------------------------------------------------- = */
 
 /* 테스트 */
-/*
+/**/
     $g_conf_gw_url    = "testpaygw.kcp.co.kr";
     $g_conf_js_url    = "https://pay.kcp.co.kr/plugin/payplus_test_un.js";
     $g_conf_site_cd   = "T0000" ;
     $g_conf_site_key  = "3grptw1.zW0GSo4PQdaGvsF__";
     $g_conf_site_name = "HANANURI";
-*/
-/* 실결제 */
 /**/
+/* 실결제 */
+/*
     $g_conf_gw_url    = "paygw.kcp.co.kr";
 	$g_conf_js_url	  = "https://pay.kcp.co.kr/plugin/payplus_un.js";
     $g_conf_site_cd   = "F3011" ;
     $g_conf_site_key  = "3grptw1.zW0GSo4PQdaGvsF__";
     $g_conf_site_name = "HANANURI";
-/**/
+*/
     /* ============================================================================== */
 
 
