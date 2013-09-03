@@ -940,8 +940,16 @@ footer #footer_line .org_info address { font-style: normal; }
 	background: url('images/subpage/left/left5_2.gif') no-repeat;
 }
 
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3.jpg') no-repeat;
+}
+
 .subpage_stretched .subpage_fixed #periodic_support li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #periodic_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
 
 
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu1 {
@@ -958,8 +966,44 @@ footer #footer_line .org_info address { font-style: normal; }
 	background: url('images/subpage/left/left5_2r.gif') no-repeat;
 }
 
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3.jpg') no-repeat;
+}
+
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu1 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_1.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu2 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_2.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3r.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+
+
 
 .subpage_stretched .subpage_fixed #tax_refund li #left5_menu1,
 .subpage_stretched .subpage_fixed #support_story li #left5_menu1{

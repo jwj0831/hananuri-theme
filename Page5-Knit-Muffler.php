@@ -26,7 +26,7 @@ get_header(); ?>
 			<div id="content">
 				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/muffler-img.jpg' usemap="#knit">
 				<map name="knit" id="Map">
-					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/periodic_support" />
+					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/muffler_pay" />
 					<area shape="rect" coords="229,2078,481,2200" href="<?php echo home_url() ?>/support/temporal_support" />
 					<area shape="rect" coords="480,2078,720,2202" href="<?php echo home_url() ?>/support/periodic_support" />
 				</map> 

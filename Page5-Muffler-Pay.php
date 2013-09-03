@@ -75,7 +75,7 @@
     /* =   Javascript source Include END                                            = */
     /* ============================================================================== */
 	?>
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript">
 	 /* 플러그인 설치(확인) */
 		StartSmartUpdate();
@@ -86,6 +86,15 @@
 			openwin = window.open( "chk_plugin.html", "chk_plugin", "width=420, height=100, top=300, left=300" );
 		}
 		*/
+
+		$(document).ready(function(){
+			$('#muffler-form-row').on('keyup', '#muffler-num-input', function(){
+				var num = +$(this).val();
+				var price = num * 10000;
+				$('#muffler-mny-value').val(price);
+				$('#muffler-mny-span').text(price);
+			});
+		});
 
         /* Payplus Plug-in 실행 */
         function  jsf__pay( form )
@@ -338,17 +347,15 @@
 							<div class="group-title-wrap-first">
 								<div class="group-title">목도리 뜨기</div>
 							</div>
-							<div class="donate_form_row">
+							<div class="donate_form_row" id="muffler-form-row" >
 								<input type="hidden" name="good_name" value="목도리 뜨기">
-								<div class="donate_form_col1">
-									<div class="donate_form_col2">
-					                    <label class="label-name">수량 <span class="reqiured">*</span></label>
-								 		<input type="text" name="good_num" class="textfield" value="" size="4" maxlength="9"/> 개 <label class="label-name">(숫자만 입력)</label>
-							 		</div>
+								<div class="donate_form_col1" >
+					                <label class="label-name">수량 <span class="reqiured">*</span></label>
+									<input type="text" name="good_num" id="muffler-num-input" class="textfield" value="1" size="4" maxlength="9"/> 개 <label class="label-name">(숫자만 입력)</label>
 								</div>
 								<div class="donate_form_col2">
-				                    <label class="label-name">금액 <span class="reqiured">*</span></label>
-							 		<input type="text" name="good_mny" class="textfield" value="" size="9" maxlength="9"/> 원 <label class="label-name">(숫자만 입력)</label>
+				                    <label class="label-name">금액</label>
+							 		<input type="hidden" name="good_mny" id="muffler-mny-value" value="10000" size="8" maxlength="9"/> <label class="label-name"> <span id="muffler-mny-span">10000</span> 원 </label>
 						 		</div>
 		                    </div>
 					 	</div>

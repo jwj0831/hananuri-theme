@@ -104,7 +104,7 @@
 		else if ( is_page( getTaxRefundPageNum() ) )
 			echo '<aside id="tax_refund">';
 		else if ( is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) )
-			echo '<aside id="temporal_support">';
+			echo '<aside id="muffler_support">';
 		else if ( $category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
 			echo '<aside id="support_story">';
 ?>
@@ -112,6 +112,7 @@
 	<ul>
 		<li><a id="left5_menu1" href="<?php echo home_url() ?>/support/periodic_support"></a></li>	
 		<li><a id="left5_menu2" href="<?php echo home_url() ?>/support/temporal_support"></a></li>			
+		<li><a id="left5_menu3" href="<?php echo home_url() ?>/support/muffler"></a></li>			
 	</ul>
 
 <?php
