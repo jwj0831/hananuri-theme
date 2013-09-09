@@ -1,5 +1,5 @@
 <?php
-	setlocale(LC_ALL, "ko_KR.utf-8");
+	//setlocale(LC_ALL, "ko_KR.utf-8");
 require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-config.php');
 require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-includes/wp-db.php');
 require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-load.php');
@@ -37,9 +37,9 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
     $buyr_mail        = $_POST[ "buyr_mail"      ];      // 구매자 E-Mail
 
     // Custom 변수
-    
-    $db_name        = $_POST[ "db_name"        ]; // 주문자 주민등록번호
+    $db_good        = $_POST[ "db_good"        ]; // 주문자 주민등록번호
     $db_mny        = $_POST[ "db_mny"        ]; // 주문자 주민등록번호
+    $db_name        = $_POST[ "db_name"        ]; // 주문자 주민등록번호
     $db_sn        = $_POST[ "db_sn"        ]; // 주문자 주민등록번호
     $db_tel        = $_POST[ "db_tel"        ]; // 주문자 주민등록번호
     $db_addr      = $_POST[ "db_addr"      ]; // 주문자 주소
@@ -91,6 +91,8 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
 	$cash_tr_code     = $_POST[ "cash_tr_code"   ];      //현금영수증 발행 구분
 	$cash_id_info     = $_POST[ "cash_id_info"   ];      //현금영수증 등록 번호
 	/* = -------------------------------------------------------------------------- = */
+
+/**/
 	
 	if (eregi('MSIE', $_SERVER['HTTP_USER_AGENT']))
 	{
@@ -100,8 +102,18 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
 		$res_msg = iconv("EUC-KR", "UTF-8",$res_msg);
 		$card_name = iconv("EUC-KR", "UTF-8",$card_name);
 		$bank_name = iconv("EUC-KR", "UTF-8",$bank_name);
-	}
-	
+        $db_good = iconv("EUC-KR", "UTF-8",$db_good); 
+        $db_mny = iconv("EUC-KR", "UTF-8",$db_mny); 
+        //$db_ordid = iconv("EUC-KR", "UTF-8",$db_ordid); 
+        $db_name = iconv("EUC-KR", "UTF-8",$db_name);
+        $db_sn = iconv("EUC-KR", "UTF-8",$db_sn);
+        $db_addr = iconv("EUC-KR", "UTF-8",$db_addr);
+        $db_tel = iconv("EUC-KR", "UTF-8",$db_tel);
+        $db_phone = iconv("EUC-KR", "UTF-8",$db_phone);
+        $db_mail = iconv("EUC-KR", "UTF-8",$db_mail);
+}
+
+/**/	
 
     $req_tx_name = "";
 
@@ -408,10 +420,9 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
 global $wpdb;
 $table_name = "refund_info";
 
-$wpdb->insert($table_name, array( 'name' => $db_name, 'amount' => $db_mny, 'social_number' => $db_sn,
-                        'address' => $db_addr, 'tel' => $db_tel, 'phone' => $db_phone, 'mail' => $db_mail ) );
-
-
+$wpdb->insert($table_name, array( 'good_name' => $db_good, 'amount' => $db_mny,
+                                 'name' => $db_name, 'social_number' => $db_sn, 'address' => $db_addr, 
+                                 'tel' => $db_tel, 'phone' => $db_phone, 'mail' => $db_mail ) );
 ?>
             
             <table width="85%" align="center" class="margin_top_10">

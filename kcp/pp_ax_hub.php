@@ -47,8 +47,9 @@
     $buyr_sn        = $_POST[ "buyr_sn"        ]; // 주문자 주민등록번호
     $buyr_addr      = $_POST[ "buyr_addr"      ]; // 주문자 주소
 
-    $db_name = $buyr_name;
+    $db_good = $good_name;
     $db_mny = $good_mny;
+    $db_name = $buyr_name;
     $db_sn = $buyr_sn;
     $db_tel = $buyr_tel1;
     $db_phone = $buyr_tel2;
@@ -104,12 +105,6 @@
     $cash_authno    = "";                         // 현금 영수증 승인 번호
     $cash_tr_code   = $_POST[ "cash_tr_code"   ]; // 현금 영수증 발행 구분
     $cash_id_info   = $_POST[ "cash_id_info"   ]; // 현금 영수증 등록 번호
-
-
-	$good_name = iconv("UTF-8", "EUC-KR",$good_name);
-    $buyr_name = iconv("UTF-8", "EUC-KR",$buyr_name); 
-    $use_pay_method = iconv("UTF-8", "EUC-KR",$use_pay_method); 
-
 		
     /* ============================================================================== */
     /* ============================================================================== */
@@ -356,6 +351,16 @@
     <head>
         <title>Test</title>
         <script type="text/javascript">
+            
+            function changeCharSet(form) {
+                if(form.canHaveHTML){
+                    document.charset = "euc-kr";
+                }
+
+                return true;
+            }
+            
+
             function goResult()
             {
                 var openwin = window.open( 'http://www.hananuri.org/kcp/proc_win.html', 'proc_win', '' )
@@ -384,15 +389,25 @@
     </head>
     
 <?
+
 	if (eregi('firefox', $_SERVER['HTTP_USER_AGENT']) or eregi('chrome', $_SERVER['HTTP_USER_AGENT']))
 	{
 		$good_name = iconv("EUC-KR", "UTF-8",$good_name);
-	    $buyr_name = iconv("EUC-KR", "UTF-8",$buyr_name); 
-	    $use_pay_method = iconv("EUC-KR", "UTF-8",$use_pay_method);
-		$res_msg = iconv("EUC-KR", "UTF-8",$res_msg);
-		$card_name = iconv("EUC-KR", "UTF-8",$card_name);
-		$bank_name = iconv("EUC-KR", "UTF-8",$bank_name);
+        $buyr_name = iconv("EUC-KR", "UTF-8",$buyr_name); 
+        $use_pay_method = iconv("EUC-KR", "UTF-8",$use_pay_method);
+        $res_msg = iconv("EUC-KR", "UTF-8",$res_msg);
+        $card_name = iconv("EUC-KR", "UTF-8",$card_name);
+        $bank_name = iconv("EUC-KR", "UTF-8",$bank_name);
+        $db_good = iconv("EUC-KR", "UTF-8",$db_good);
+        $db_mny = iconv("EUC-KR", "UTF-8",$db_mny);
+        $db_name = iconv("EUC-KR", "UTF-8",$db_name);
+        $db_sn = iconv("EUC-KR", "UTF-8",$db_sn);
+        $db_addr = iconv("EUC-KR", "UTF-8",$db_addr);
+        $db_tel = iconv("EUC-KR", "UTF-8",$db_tel);
+        $db_phone = iconv("EUC-KR", "UTF-8",$db_phone);
+        $db_mail = iconv("EUC-KR", "UTF-8",$db_mail);
 	}
+
 ?>
 <?
 
@@ -415,7 +430,7 @@ if($req_tx == "pay")
 ?>
 
     <body onload="goResult()">
-    <form name="pay_info" method="post" action="http://www.hananuri.org/kcp/result.php">
+    <form name="pay_info" method="post" action="http://www.hananuri.org/kcp/result.php" onsubmit="changeCharSet(this)">
 		<input type="hidden" name="site_cd"           value="<?=$g_conf_site_cd ?>">    <!-- 사이트코드 -->
         <input type="hidden" name="req_tx"            value="<?=$req_tx         ?>">    <!-- 요청 구분 -->
         <input type="hidden" name="use_pay_method"    value="<?=$use_pay_method ?>">    <!-- 사용한 결제 수단 -->
@@ -472,8 +487,9 @@ if($req_tx == "pay")
         <input type="hidden" name="cash_id_info"      value="<?=$cash_id_info   ?>">    <!-- 현금 영수증 등록 번호 -->
 
 
-        <input type="hidden" name="db_name"      value="<?=$db_name   ?>">
+        <input type="hidden" name="db_good"      value="<?=$db_good   ?>">
         <input type="hidden" name="db_mny"      value="<?=$db_mny   ?>">
+        <input type="hidden" name="db_name"      value="<?=$db_name   ?>">
         <input type="hidden" name="db_sn"      value="<?=$db_sn   ?>">
         <input type="hidden" name="db_addr"      value="<?=$db_addr   ?>">
         <input type="hidden" name="db_tel"      value="<?=$db_tel   ?>">

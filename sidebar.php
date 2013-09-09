@@ -92,8 +92,10 @@
 	}
 	else if( 
 			is_page ( getSupportPageNum() ) or // Modification
-			is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or 
+			is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or
+			is_page ( getMealDonationPageNum() ) or is_page( getMoneyBoxPageNum() ) or
 			is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) or
+			is_page( getVolunteerAuthFormPageNum() ) or
 			is_page( getTaxRefundPageNum() ) or $category == getDonationCategoryNum() or
 			$category == getDonatioinEndCategoryNum()
 	){
@@ -103,16 +105,25 @@
 			echo '<aside id="temporal_support">';
 		else if ( is_page( getTaxRefundPageNum() ) )
 			echo '<aside id="tax_refund">';
+		else if ( is_page( getMealDonationPageNum() ) )
+			echo '<aside id="meal_donation">';
+		else if ( is_page ( getMoneyBoxPageNum() ) )
+			echo '<aside id="money_box">';
 		else if ( is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) )
 			echo '<aside id="muffler_support">';
+		else if ( is_page( getVolunteerAuthFormPageNum() ) )
+			echo '<aside id="volunteer_form">';
 		else if ( $category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
 			echo '<aside id="support_story">';
 ?>
 	<img src='<?php bloginfo('template_url'); ?>/images/subpage/left/left5_t.gif'>
 	<ul>
 		<li><a id="left5_menu1" href="<?php echo home_url() ?>/support/periodic_support"></a></li>	
-		<li><a id="left5_menu2" href="<?php echo home_url() ?>/support/temporal_support"></a></li>			
-		<li><a id="left5_menu3" href="<?php echo home_url() ?>/support/muffler"></a></li>			
+		<li><a id="left5_menu2" href="<?php echo home_url() ?>/support/temporal_support"></a></li>
+		<li><a id="left5_menu3" href="<?php echo home_url() ?>/support/meal_donation"></a></li>
+		<li><a id="left5_menu4" href="<?php echo home_url() ?>/support/money_box"></a></li>			
+		<li><a id="left5_menu5" href="<?php echo home_url() ?>/support/muffler"></a></li>
+		<li><a id="left5_menu6" href="<?php echo home_url() ?>/support/volunteer_auth_form"></a></li>			
 	</ul>
 
 <?php

@@ -947,10 +947,34 @@ footer #footer_line .org_info address { font-style: normal; }
 	background: url('images/subpage/left/left5_3.jpg') no-repeat;
 }
 
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6.jpg') no-repeat;
+}
+
+
 .subpage_stretched .subpage_fixed #periodic_support li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #periodic_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #periodic_support li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
-
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #periodic_support li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
 
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu1 {
 	width: 195px;
@@ -973,10 +997,133 @@ footer #footer_line .org_info address { font-style: normal; }
 	background: url('images/subpage/left/left5_3.jpg') no-repeat;
 }
 
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6.jpg') no-repeat;
+}
+
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #temporal_support li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #temporal_support li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
 
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu1 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_1.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu2 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_2.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3r.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #meal_donation li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
+
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu1 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_1.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu2 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_2.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4r.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #money_box li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #money_box li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #money_box li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #money_box li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #money_box li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #money_box li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
 
 .subpage_stretched .subpage_fixed #muffler_support li #left5_menu1 {
 	width: 195px;
@@ -996,12 +1143,36 @@ footer #footer_line .org_info address { font-style: normal; }
 	width: 195px;
 	height: 46px;
 	display: block;
-	background: url('images/subpage/left/left5_3r.jpg') no-repeat;
+	background: url('images/subpage/left/left5_3.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5r.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6.jpg') no-repeat;
 }
 
 .subpage_stretched .subpage_fixed #muffler_support li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #muffler_support li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
 .subpage_stretched .subpage_fixed #muffler_support li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #muffler_support li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
 
 
 
@@ -1286,6 +1457,33 @@ footer #footer_line .org_info address { font-style: normal; }
 .reqiured {
 	color: #cc0101;
 	font-size: 10px;
+}
+
+/*
+ * For Meal Donation Page
+ */
+
+#meal_form_background {
+	width: 715px;
+	height: 811px;
+	background: url('images/subpage/sub5/sub5_meal_donation_img.jpg') no-repeat;
+}
+
+#margin-box-for-form{
+	width: 715px;
+	height: 560px;
+}
+
+
+/*
+ * For Muffler Pay Page
+ */
+
+#muffler-title {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
 }
 
 /*

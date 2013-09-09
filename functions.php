@@ -77,8 +77,11 @@ function getNorthStoryPageNum() {return 822;}
 function getSupportPageNum() {return 45;}
 function getPeriodicSupportPageNum() {return 47;}
 function getTemporalSupportPageNum() {return 49;}
+function getMealDonationPageNum() {return 1416;}
+function getMoneyBoxPageNum() {return 1418;}
 function getKnitMufflersPageNum() {return 1386;}
 function getMufflerPayPageNum() {return 1388;}
+function getVolunteerAuthFormPageNum() {return 1400;}
 function getTaxRefundPageNum() {return 59;}
 
 

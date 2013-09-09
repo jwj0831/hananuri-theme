@@ -1,5 +1,4 @@
 <?php
-    setlocale(LC_ALL, "ko_KR.utf-8");
 require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-config.php');
 require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-includes/wp-db.php');
 require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-load.php');
@@ -37,14 +36,13 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
     $buyr_mail        = $_POST[ "buyr_mail"      ];      // 구매자 E-Mail
 
     // Custom 변수
-    
-    $db_name        = $_POST[ "db_name"        ]; // 주문자 주민등록번호
-    $db_num        = $_POST[ "db_num"        ]; // 주문자 주민등록번호
-    $db_mny        = $_POST[ "db_mny"        ]; // 주문자 주민등록번호
-    $db_tel        = $_POST[ "db_tel"        ]; // 주문자 주민등록번호
-    $db_addr      = $_POST[ "db_addr"      ]; // 주문자 주소
-    $db_phone        = $_POST[ "db_phone"        ]; // 주문자 주민등록번호
-    $db_mail        = $_POST[ "db_mail"        ]; // 주문자 주민등록번호
+    $db_good          = $_POST[ "db_good"        ];     // 목도리 주문 수량
+    $db_num           = $_POST[ "db_num"         ];     // 목도리 주문 수량
+    $db_mny           = $_POST[ "db_mny"         ];     // 목도리 구매 금액
+    $db_name          = $_POST[ "db_name"        ];     // 주문자 이름
+    $db_addr          = $_POST[ "db_addr"        ];     // 배송지 주소
+    $db_phone         = $_POST[ "db_phone"       ];     // 주문자 주민등록번호
+    $db_mail          = $_POST[ "db_mail"        ];     // 주문자 주민등록번호
 
     /* = -------------------------------------------------------------------------- = */
     // 공통
@@ -100,6 +98,14 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
         $res_msg = iconv("EUC-KR", "UTF-8",$res_msg);
         $card_name = iconv("EUC-KR", "UTF-8",$card_name);
         $bank_name = iconv("EUC-KR", "UTF-8",$bank_name);
+        $db_good = iconv("EUC-KR", "UTF-8",$db_good);
+        $db_num = iconv("EUC-KR", "UTF-8",$db_num);
+        $db_mny = iconv("EUC-KR", "UTF-8",$db_mny);
+        $db_name = iconv("EUC-KR", "UTF-8",$db_name);
+        $db_addr = iconv("EUC-KR", "UTF-8",$db_addr);
+        $db_phone = iconv("EUC-KR", "UTF-8",$db_phone);
+        $db_mail = iconv("EUC-KR", "UTF-8",$db_mail);
+
     }
     
 
@@ -249,7 +255,7 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
                     <!-- 주문자명 -->
                     <tr><td class="sub_title1">주문자명</td><td class="sub_content1"><?=$buyr_name?></td></tr>
                     <!-- 주문자 전화번호 -->
-                    <tr><td class="sub_title1">주문자 전화번호</td><td class="sub_content1"><?=$buyr_tel1?></td></tr>
+                    <!--<tr><td class="sub_title1">주문자 전화번호</td><td class="sub_content1"><?=$buyr_tel1?></td></tr>-->
                     <!-- 주문자 휴대폰번호 -->
                     <tr><td class="sub_title1">주문자 휴대폰번호</td><td class="sub_content1"><?=$buyr_tel2?></td></tr>
                     <!-- 주문자 E-mail -->
@@ -409,10 +415,9 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
 global $wpdb;
 $table_name = "muffler_info";
 
-$wpdb->insert($table_name, array( 'name' => $db_name, 'muffler_num' => $db_num, 'amount' => $db_mny,
-                        'address' => $db_addr, 'tel' => $db_tel, 'phone' => $db_phone, 'mail' => $db_mail ) );
 
-
+$wpdb->insert($table_name, array( 'good_name' => $db_good,  'muffler_num' => $db_num, 'amount' => $db_mny,
+                                'name' => $db_name, 'address' => $db_addr, 'phone' => $db_phone, 'mail' => $db_mail ) );
 ?>
             
             <table width="85%" align="center" class="margin_top_10">

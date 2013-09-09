@@ -22,6 +22,7 @@
      /* = -------------------------------------------------------------------------- = */
     /* =   환경 설정 파일 Include END                                               = */
     /* ============================================================================== */
+//setlocale(LC_ALL, "ko_KR.utf-8");
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -90,7 +91,7 @@
 		$(document).ready(function(){
 			$('#muffler-form-row').on('keyup', '#muffler-num-input', function(){
 				var num = +$(this).val();
-				var price = num * 10000;
+				var price = num * 12000;
 				$('#muffler-mny-value').val(price);
 				$('#muffler-mny-span').text(price);
 			});
@@ -120,6 +121,14 @@
             }
 
             return RetVal ;
+        }
+
+        function changeCharSet(form) {
+        	if(form.canHaveHTML){
+        		document.charset = "euc-kr";
+        	}
+
+        	return true;
         }
 
 		// Payplus Plug-in 설치 안내 
@@ -339,8 +348,13 @@
 		<div class="subpage_fixed">
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
 			<div id="content">
+				<div id="muffler-title">
+					<!--&lt;잠시 테스트 중입니다.(15:00~18:00)&gt;-->
+					&lt;신청하신 목도리제작킷은 추석연휴 이후인 9월 23일부터 순차 발송됩니다.&gt;
+				</div>
+
 				<div class="form">
-				<form name="order_info" method="post" action="/kcp/pp_ax_hub_for_muffler.php" >
+				<form name="order_info" method="post" action="/kcp/pp_ax_hub_for_muffler.php" accept-charset="euc-kr" onsubmit="changeCharSet(this)" >
 					<div class="temporal_donate_form">
 						<div class="donate_form_row">
 							<input type="hidden" name="ordr_idxx" class="frminput" value="" size="40" maxlength="40"/>
@@ -355,15 +369,16 @@
 								</div>
 								<div class="donate_form_col2">
 				                    <label class="label-name">금액</label>
-							 		<input type="hidden" name="good_mny" id="muffler-mny-value" value="10000" size="8" maxlength="9"/> <label class="label-name"> <span id="muffler-mny-span">10000</span> 원 </label>
+							 		<input type="hidden" name="good_mny" id="muffler-mny-value" value="12000" size="8" maxlength="9"/> <label class="label-name"> <span id="muffler-mny-span">12000</span> 원 </label>
 						 		</div>
 		                    </div>
 					 	</div>
 					 	<div class="donate_form_row">
-						 	<label class="label-name">후원방법 <span class="reqiured">*</span></label>
+						 	<label class="label-name">결제방법 <span class="reqiured">*</span></label>
 						 	<select name="pay_method" class="select_btn">
 		                        <option value="100000000000" selected="selected">신용카드</option>
 		                        <option value="010000000000">계좌이체</option>
+		                        <!--<option value="000010000000">휴대폰</option>-->
 		                    </select>
 						</div>
 						<div class="group-title-wrap">
@@ -381,13 +396,9 @@
 					 	</div>
 					 	<div class="donate_form_row">
 					 		<div class="donate_form_col1">
-							 	<label class="label-name">연락처 <span class="reqiured">*</span></label>
-						 		<input class="textfield" type='text' name='buyr_tel1' size=18 required itemname="연락처" value=""/>
+							 	<label class="label-name">휴대폰 <span class="reqiured">*</span></label>
+						 		<input class="textfield" type='text' name='buyr_tel2' size=18 required itemname="휴대폰" value=""/>
 						 	</div>
-						 	<div class="donate_form_col2">
-						 		<label class="label-name">휴대폰</label>
-						 		<input class="textfield" type='text' name='buyr_tel2' size=18 itemname="휴대폰" value=""/>
-					 		</div>
 					 	</div>
 					 	<div class="donate_form_row">
 						 	<label class="label-name">배송지 주소<span class="reqiured">*</span><label>

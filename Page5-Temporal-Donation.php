@@ -10,7 +10,7 @@
  * @since Hananuri 1.0
  */
  
-     /* ============================================================================== */
+    /* ============================================================================== */
     /* =   환경 설정 파일 Include                                                   = */
     /* = -------------------------------------------------------------------------- = */
     /* =   ※ 필수                                                                  = */
@@ -90,7 +90,9 @@
         /* Payplus Plug-in 실행 */
         function  jsf__pay( form )
         {
+
             var RetVal = false;
+
 
             /* Payplus Plugin 실행 */
             if ( MakePayMessage( form ) == true )
@@ -109,8 +111,15 @@
                 res_msg = document.order_info.res_msg.value ;
 
             }
-
             return RetVal ;
+        }
+
+        function changeCharSet(form) {
+        	if(form.canHaveHTML){
+        		document.charset = "euc-kr";
+        	}
+
+        	return true;
         }
 
 		// Payplus Plug-in 설치 안내 
@@ -331,8 +340,9 @@
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
 			<div id="content">
 				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_temporal_support.gif'>
+				<!--<h2>&lt;잠시 테스트 중입니다.(15:00~19:00)&gt;</h2>-->
 				<div class="form">
-				<form name="order_info" method="post" action="/kcp/pp_ax_hub.php" >
+				<form name="order_info" method="post" action="/kcp/pp_ax_hub.php" accept-charset="euc-kr" onsubmit="changeCharSet(this)" >
 					<div class="temporal_donate_form">
 						<div class="donate_form_row">
 							<input type="hidden" name="ordr_idxx" class="frminput" value="" size="40" maxlength="40"/>
@@ -347,7 +357,7 @@
 				                        <option value="북한 인도적 지원">북한 인도적 지원</option>
 				                        <option value="북한 지역 개발 사업">북한 지역 개발 사업</option>
 				                        <option value="해외 어린이 지원 사업">해외 어린이 지원 사업</option>
-				                        <option value="해외 어린이 지원 사업">인도자원봉사후원</option>
+				                        <option value="해외 어린이 지원 사업">방한용품 보내기</option>
 				                    </select>
 								</div>
 								<div class="donate_form_col2">
@@ -361,6 +371,7 @@
 						 	<select name="pay_method" class="select_btn">
 		                        <option value="100000000000" selected="selected">신용카드</option>
 		                        <option value="010000000000">계좌이체</option>
+		                        <!--<option value="000010000000">휴대폰</option>-->
 		                    </select>
 						</div>
 						<div class="donate_form_row">
@@ -572,6 +583,7 @@
     /* =   4. 옵션 정보 END                                                         = */
     /* ============================================================================== */
 ?>
+
 				</form>
 			</div>	
 			</div><!--close content-->
