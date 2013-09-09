@@ -11,6 +11,8 @@ function fn_admin_bar() {
 add_filter('show_admin_bar', 'fn_admin_bar');
 */
 
+
+
 function current_page_url() {
 	$pageURL = 'http';
 	if( isset($_SERVER["HTTPS"]) ) {

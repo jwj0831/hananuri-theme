@@ -546,7 +546,7 @@ footer #footer_line .org_info address { font-style: normal; }
 
 .subpage_stretched .subpage_fixed aside ul {
 	margin: 50px 0;
-	height: 190px;
+	/*height: 190px;*/
 }
 
 .subpage_stretched .subpage_fixed aside ul  li{
@@ -1175,6 +1175,56 @@ footer #footer_line .org_info address { font-style: normal; }
 .subpage_stretched .subpage_fixed #muffler_support li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
 
 
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu1 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_1.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu2 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_2.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6r.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu1:hover {	background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #volunteer_form li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
+
+
 
 .subpage_stretched .subpage_fixed #tax_refund li #left5_menu1,
 .subpage_stretched .subpage_fixed #support_story li #left5_menu1{
@@ -1466,6 +1516,8 @@ footer #footer_line .org_info address { font-style: normal; }
 #meal_form_background {
 	width: 715px;
 	height: 811px;
+	border: 1px solid #cfcfcf;
+	margin-top: -3px;
 	background: url('images/subpage/sub5/sub5_meal_donation_img.jpg') no-repeat;
 }
 
@@ -1474,6 +1526,33 @@ footer #footer_line .org_info address { font-style: normal; }
 	height: 560px;
 }
 
+
+/*
+ * For Money Box Page
+ */
+#money_box_background{
+	width: 715px;
+	height: 1080px;
+	border: 1px solid #cfcfcf;
+	margin-top: -3px;
+	background: url('images/subpage/sub5/sub5_money_box.jpg') no-repeat;
+}
+
+#moneybox-adjust-box1{
+	width: 715px;
+	height: 290px;
+}
+
+
+#moneybox-adjust-box2{
+	width: 715px;
+	height: 315px;
+}
+
+#knit_img {
+	margin-top: -3px;
+	border: 1px solid #cfcfcf;
+}
 
 /*
  * For Muffler Pay Page
@@ -1485,6 +1564,32 @@ footer #footer_line .org_info address { font-style: normal; }
 	font-weight: bold;
 	text-align: center;
 }
+
+/*
+ * For Volunteer Form Page
+ */
+#volunteer_form_background{
+	margin-top: -3px;
+	width: 715px;
+	height: 704px;
+	border-top: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	background: url('images/subpage/sub5/sub5_volunteer_form_top.jpg') no-repeat;
+}
+
+#volunteer_form_adjust-box{
+	width: 715px;
+	height: 290px;
+}
+
+#volunteer_form_bottom{
+	border-bottom: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+}
+
+
 
 /*
  *  For Single Page CSS

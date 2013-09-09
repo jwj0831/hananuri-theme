@@ -90,8 +90,9 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
     $cash_id_info     = $_POST[ "cash_id_info"   ];      //현금영수증 등록 번호
     /* = -------------------------------------------------------------------------- = */
     
-    if (eregi('MSIE', $_SERVER['HTTP_USER_AGENT']))
-    {
+    //if (eregi('MSIE', $_SERVER['HTTP_USER_AGENT']))
+    //{
+/*
         $good_name = iconv("EUC-KR", "UTF-8",$good_name);
         $buyr_name = iconv("EUC-KR", "UTF-8",$buyr_name); 
         $use_pay_method = iconv("EUC-KR", "UTF-8",$use_pay_method);
@@ -105,9 +106,32 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
         $db_addr = iconv("EUC-KR", "UTF-8",$db_addr);
         $db_phone = iconv("EUC-KR", "UTF-8",$db_phone);
         $db_mail = iconv("EUC-KR", "UTF-8",$db_mail);
+*/
+    //}
 
-    }
-    
+        function checkUTF8Encoding($string) {
+    $test = mb_check_encoding($string, 'UTF-8');
+
+    if($test)
+        return $string;
+    else if(!$test)
+        return iconv("EUC-KR", "UTF-8",$string);
+}
+        $good_name = checkUTF8Encoding($good_name);
+        $buyr_name = checkUTF8Encoding($buyr_name);
+        $use_pay_method = checkUTF8Encoding($use_pay_method);
+        $res_msg = checkUTF8Encoding($res_msg);
+        $card_name = checkUTF8Encoding($card_name);
+        $bank_name = checkUTF8Encoding($bank_name);
+        $db_good = checkUTF8Encoding($db_good);
+        $db_num = checkUTF8Encoding($db_num);
+        $db_mny = checkUTF8Encoding($db_mny);
+        $db_name = checkUTF8Encoding($db_name);
+        $db_addr = checkUTF8Encoding($db_addr);
+        $db_phone = checkUTF8Encoding( $db_phone);
+        $db_mail = checkUTF8Encoding($db_mail);
+
+
 
     $req_tx_name = "";
 

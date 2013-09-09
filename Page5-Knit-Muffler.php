@@ -24,7 +24,8 @@ get_header(); ?>
 		<div class="subpage_fixed">
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 			<div id="content">
-				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_muffler_img.jpg' usemap="#knit">
+				<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
+				<img id="knit_img" src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_muffler_img.jpg' usemap="#knit">
 				<map name="knit" id="Map">
 					<area shape="rect" coords="13,1934,697,2076" href="<?php echo home_url() ?>/support/volunteer_auth_form">
 					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/muffler_pay" />

@@ -389,7 +389,7 @@
     </head>
     
 <?
-
+/*
 	if (eregi('firefox', $_SERVER['HTTP_USER_AGENT']) or eregi('chrome', $_SERVER['HTTP_USER_AGENT']))
 	{
 		$good_name = iconv("EUC-KR", "UTF-8",$good_name);
@@ -407,7 +407,7 @@
         $db_phone = iconv("EUC-KR", "UTF-8",$db_phone);
         $db_mail = iconv("EUC-KR", "UTF-8",$db_mail);
 	}
-
+*/
 ?>
 <?
 

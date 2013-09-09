@@ -24,6 +24,7 @@ get_header(); ?>
 		<div class="subpage_fixed">
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 			<div id="content">
+				<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
 				<div id="meal_form_background">
 					<div id="margin-box-for-form"></div>
 					<?php if (function_exists('iphorm')) echo iphorm(5); ?>

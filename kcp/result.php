@@ -93,9 +93,18 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
 	/* = -------------------------------------------------------------------------- = */
 
 /**/
+
+function checkUTF8Encoding($string) {
+    $test = mb_check_encoding($string, 'UTF-8');
+
+    if($test)
+        return $string;
+    else if(!$test)
+        return iconv("EUC-KR", "UTF-8",$string);
+}
 	
-	if (eregi('MSIE', $_SERVER['HTTP_USER_AGENT']))
-	{
+//	if (eregi('MSIE', $_SERVER['HTTP_USER_AGENT']))
+//	{
 		$good_name = iconv("EUC-KR", "UTF-8",$good_name);
 	    $buyr_name = iconv("EUC-KR", "UTF-8",$buyr_name); 
 	    $use_pay_method = iconv("EUC-KR", "UTF-8",$use_pay_method);
@@ -111,7 +120,7 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
         $db_tel = iconv("EUC-KR", "UTF-8",$db_tel);
         $db_phone = iconv("EUC-KR", "UTF-8",$db_phone);
         $db_mail = iconv("EUC-KR", "UTF-8",$db_mail);
-}
+//}
 
 /**/	
 

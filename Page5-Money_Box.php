@@ -24,15 +24,13 @@ get_header(); ?>
 		<div class="subpage_fixed">
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
 			<div id="content">
-				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_meal_donation_img.jpg' usemap="#knit">
-				<!--
-				<map name="knit" id="Map">
-					<area shape="rect" coords="13,1934,697,2076" href="<?php echo home_url() ?>/support/volunteer_auth_form">
-					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/muffler_pay" />
-					<area shape="rect" coords="229,2078,481,2200" href="<?php echo home_url() ?>/support/temporal_support" />
-					<area shape="rect" coords="480,2078,720,2202" href="<?php echo home_url() ?>/support/periodic_support" />
-				</map> 
-			-->
+				<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
+				<div id="money_box_background">
+					<div id="moneybox-adjust-box1"></div>
+					<?php if (function_exists('iphorm')) echo iphorm(7); ?>
+					<div id="moneybox-adjust-box2"></div>
+					<?php if (function_exists('iphorm')) echo iphorm(6); ?>
+				</div>
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->
