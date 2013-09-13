@@ -140,14 +140,13 @@
 	<a href="http://www.hananuri.org/support/meal_donation" target="_self" alt='한 끼 나눔 링크'>
 		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_meal.gif'>
 	</a>
+		<a href="http://www.hananuri.org/support/muffler" target="_self" alt='목도리 뜨기 링크'>
+		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_muffler.gif'>
+	</a>
 	<a href="http://www.hananuri.org/support/money_box" target="_self" alt='저금통 링크'>
 		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_moneyBox.gif'>
 	</a>
-	<!--
-	<a href="http://www.hananuri.org/support/muffler" target="_self" alt='목도리 뜨기 링크'>
-		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_muffler.gif'>
-	</a>
--->
+
 </aside>
 
 					

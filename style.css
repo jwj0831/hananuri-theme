@@ -1254,7 +1254,7 @@ footer #footer_line .org_info address { font-style: normal; }
 	width: 714px;
 	float: left;
 	border-left: 1px dotted #cfcfcf;
-	min-height: 800px;
+	min-height: 1020px;
 }
 
 .subpage_stretched .subpage_fixed #content .biz_update_banner {
@@ -1483,6 +1483,14 @@ footer #footer_line .org_info address { font-style: normal; }
 	width: 120px;
 }
 
+#muffler_money_label{
+	width:200px;
+}
+
+#direct-banking{
+	font-size: 12px;
+}
+
 
 .donate_form_row .select_btn{
 	display: inline;
@@ -1562,6 +1570,13 @@ footer #footer_line .org_info address { font-style: normal; }
 	margin-top: 20px;
 	font-size: 20px;
 	font-weight: bold;
+	text-align: center;
+}
+
+#muffler-mobile {
+	margin-top: 40px;
+	font-size: 24px;
+	color: red;
 	text-align: center;
 }
 

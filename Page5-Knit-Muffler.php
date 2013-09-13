@@ -31,7 +31,13 @@ get_header(); ?>
 					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/muffler_pay" />
 					<area shape="rect" coords="229,2078,481,2200" href="<?php echo home_url() ?>/support/temporal_support" />
 					<area shape="rect" coords="480,2078,720,2202" href="<?php echo home_url() ?>/support/periodic_support" />
-				</map> 
+				</map>
+				<div>
+					<p id="muffler-mobile">모바일로 접속시 하단 정보 입력후 결제해주세요.</p>
+				</div>
+				<div>
+					<iframe src="https://docs.google.com/forms/d/1LBqkKAsmuvqJuVMyo6im_ZBjoOhyCB9KOWolCa-WZCU/viewform?embedded=true" width="712" height="700" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
+				<div> 
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->

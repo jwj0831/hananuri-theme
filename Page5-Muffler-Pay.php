@@ -91,9 +91,17 @@
 		$(document).ready(function(){
 			$('#muffler-form-row').on('keyup', '#muffler-num-input', function(){
 				var num = +$(this).val();
-				var price = num * 12000;
-				$('#muffler-mny-value').val(price);
-				$('#muffler-mny-span').text(price);
+				if(num > 1){
+					var price = 12000 + (num-1) * 10000;
+					$('#muffler-mny-value').val(price);
+					$('#muffler-mny-span').text(price);
+				}
+				else if(num == 1) {
+					var price = 12000;
+					$('#muffler-mny-value').val(price);
+					$('#muffler-mny-span').text(price);
+				}
+
 			});
 		});
 
@@ -368,18 +376,21 @@
 									<input type="text" name="good_num" id="muffler-num-input" class="textfield" value="1" size="4" maxlength="9"/> 개 <label class="label-name">(숫자만 입력)</label>
 								</div>
 								<div class="donate_form_col2">
-				                    <label class="label-name">금액</label>
+				                    <label class="label-name" id="muffler_money_label">금액<span class="reqiured">(두개 이상은 만원씩 추가됩니다.)</span></label>
 							 		<input type="hidden" name="good_mny" id="muffler-mny-value" value="12000" size="8" maxlength="9"/> <label class="label-name"> <span id="muffler-mny-span">12000</span> 원 </label>
 						 		</div>
 		                    </div>
 					 	</div>
 					 	<div class="donate_form_row">
-						 	<label class="label-name">결제방법 <span class="reqiured">*</span></label>
-						 	<select name="pay_method" class="select_btn">
-		                        <option value="100000000000" selected="selected">신용카드</option>
-		                        <option value="010000000000">계좌이체</option>
-		                        <!--<option value="000010000000">휴대폰</option>-->
-		                    </select>
+					 		<div class="donate_form_col1">
+							 	<label class="label-name">결제방법 <span class="reqiured">*</span></label>
+							 	<select name="pay_method" class="select_btn">
+			                        <option value="100000000000" selected="selected">신용카드</option>
+			                        <option value="010000000000">계좌이체</option>
+			                        <!--<option value="000010000000">휴대폰</option>-->
+			                    </select>
+		                	</div>
+		                   	<div id="direct-banking" class="donate_form_col2">&lt;직접송금&gt; 국민 089501-04-186111 (사) 하나누리</div>
 						</div>
 						<div class="group-title-wrap">
 							<div class="group-title">배송지 정보 </div>
