@@ -435,13 +435,14 @@ require_once('/home/hosting_users/hananuri07/www/hiddenforsecurity/wordpress/wp-
 ?>
 
 <?
-
+if($bSucc == "true"){
 global $wpdb;
 $table_name = "muffler_info";
 
 
 $wpdb->insert($table_name, array( 'good_name' => $db_good,  'muffler_num' => $db_num, 'amount' => $db_mny,
                                 'name' => $db_name, 'address' => $db_addr, 'phone' => $db_phone, 'mail' => $db_mail ) );
+}
 ?>
             
             <table width="85%" align="center" class="margin_top_10">
