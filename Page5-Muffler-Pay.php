@@ -357,8 +357,8 @@
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
 			<div id="content">
 				<div id="muffler-title">
-					&lt;잠시 점검 중입니다.(11:00~14:00)&gt;
-					<!--&lt;신청하신 목도리제작킷은 추석연휴 이후인 9월 23일부터 순차 발송됩니다.&gt;-->
+					<!--&lt;잠시 점검 중입니다.(11:00~14:00)&gt;-->
+					&lt;신청하신 목도리제작킷은 추석연휴 이후인 9월 23일부터 순차 발송됩니다.&gt;
 				</div>
 
 				<div class="form">
