@@ -37,7 +37,7 @@ get_header(); ?>
 				</div>
 				<div>
 					<iframe src="https://docs.google.com/forms/d/1LBqkKAsmuvqJuVMyo6im_ZBjoOhyCB9KOWolCa-WZCU/viewform?embedded=true" width="712" height="700" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
-				<div> 
+				</div> 
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->
