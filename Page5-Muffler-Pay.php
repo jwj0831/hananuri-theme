@@ -92,12 +92,12 @@
 			$('#muffler-form-row').on('keyup', '#muffler-num-input', function(){
 				var num = +$(this).val();
 				if(num > 1){
-					var price = 12000 + (num-1) * 10000;
+					var price = 10000 + (num-1) * 10000;
 					$('#muffler-mny-value').val(price);
 					$('#muffler-mny-span').text(price);
 				}
 				else if(num == 1) {
-					var price = 12000;
+					var price = 10000;
 					$('#muffler-mny-value').val(price);
 					$('#muffler-mny-span').text(price);
 				}
@@ -358,7 +358,7 @@
 			<div id="content">
 				<div id="muffler-title">
 					<!--&lt;잠시 점검 중입니다.(11:00~14:00)&gt;-->
-					&lt;신청하신 목도리제작킷은 추석연휴 이후인 9월 23일부터 순차 발송됩니다.&gt;
+					<!--&lt;신청하신 목도리제작킷은 추석연휴 이후인 9월 23일부터 순차 발송됩니다.&gt;-->
 				</div>
 
 				<div class="form">
@@ -377,7 +377,7 @@
 								</div>
 								<div class="donate_form_col2">
 				                    <label class="label-name" id="muffler_money_label">금액<span class="reqiured">(두개 이상은 만원씩 추가됩니다.)</span></label>
-							 		<input type="hidden" name="good_mny" id="muffler-mny-value" value="12000" size="8" maxlength="9"/> <label class="label-name"> <span id="muffler-mny-span">12000</span> 원 </label>
+							 		<input type="hidden" name="good_mny" id="muffler-mny-value" value="10000" size="8" maxlength="9"/> <label class="label-name"> <span id="muffler-mny-span">10000</span> 원 </label>
 						 		</div>
 		                    </div>
 					 	</div>
