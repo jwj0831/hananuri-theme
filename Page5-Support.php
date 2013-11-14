@@ -22,7 +22,7 @@ get_header(); ?>
 		</div>
 		<div class="support_stretched">
 			<div class="support_fixed">
-				<?php dynamic_sidebar('support'); ?>
+				<?php dynamic_sidebar('donation'); ?>
 			</div>
 		</div>
 		<div class="subpage_fixed">

@@ -125,9 +125,9 @@ add_image_size('excerpt-thumbnail', 180, 140, true);
 
 function hananuri_widgets_init() {
 	register_sidebar(array(
-		'name' => 'Sidebar Widget',
-		'id' => 'sidebar-widget',
-		'description' => 'Sidebar', 
+		'name' => 'donation',
+		'id' => 'donation-widget',
+		'description' => 'dontation', 
 		'before_widget' => '<aside id="%1$s" class="event-widgets %2$s">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3>',
