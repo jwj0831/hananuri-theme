@@ -1343,8 +1343,11 @@ footer #footer_line .org_info address { font-style: normal; }
 /*
  * support Page CSS
  */
-
-
+/*
+#ajax-result{
+	text-align: center;
+}
+*/
 .subpage_stretched .support_stretched {
 	height: 560px;
 	background-image: url('images/subpage/sub5/sub5_slide_bg_repeat.gif');

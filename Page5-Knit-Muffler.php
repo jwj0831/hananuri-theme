@@ -29,7 +29,7 @@ get_header(); ?>
 				<map name="knit" id="Map">
 					<area shape="rect" coords="13,1934,697,2076" href="<?php echo home_url() ?>/support/volunteer_auth_form">
 					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/muffler_pay" />
-					<area shape="rect" coords="229,2078,481,2200" href="<?php echo home_url() ?>/support/temporal_support" />
+					<area shape="rect" coords="229,2078,481,2200" href="<?php echo home_url() ?>/support/money_box" />
 					<area shape="rect" coords="480,2078,720,2202" href="<?php echo home_url() ?>/support/periodic_support" />
 				</map>
 				<div>

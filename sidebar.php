@@ -95,7 +95,7 @@
 			is_page( getPeriodicSupportPageNum() ) or is_page( getTemporalSupportPageNum() ) or
 			is_page ( getMealDonationPageNum() ) or is_page( getMoneyBoxPageNum() ) or
 			is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) or
-			is_page( getVolunteerAuthFormPageNum() ) or
+			is_page( getVolunteerAuthFormPageNum() ) or is_page( getChristmasGiftPageNum() ) or
 			is_page( getTaxRefundPageNum() ) or $category == getDonationCategoryNum() or
 			$category == getDonatioinEndCategoryNum()
 	){
@@ -109,7 +109,7 @@
 			echo '<aside id="meal_donation">';
 		else if ( is_page ( getMoneyBoxPageNum() ) )
 			echo '<aside id="money_box">';
-		else if ( is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) )
+		else if ( is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) or is_page( getChristmasGiftPageNum() ) )
 			echo '<aside id="muffler_support">';
 		else if ( is_page( getVolunteerAuthFormPageNum() ) )
 			echo '<aside id="volunteer_form">';
