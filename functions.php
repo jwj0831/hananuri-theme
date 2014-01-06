@@ -86,7 +86,9 @@ function getMufflerPayPageNum() {return 1388;}
 function getVolunteerAuthFormPageNum() {return 1400;}
 function getTaxRefundPageNum() {return 59;}
 function getChristmasGiftPageNum() {return 1490;}
-
+function getChristmasMufflerPageNum() {return 1525;}
+function getChristmasNorthPageNum() {return 1527;}
+function getChristmasIndiaPageNum() {return 1529;}
 // Category Value
 function getNorthBizCategoryNum() {return 1;}
 function getOverseasBizCategoryNum() {return 2;}
@@ -104,6 +106,7 @@ function getNorthStoryCategoryNum() {return 16;}
 function getDonationCategoryNum() {return 13;}
 function getDonatioinEndCategoryNum() {return 14;}
 function getNoticeCategoryNum() {return 15;}
+
 
 
 // Changing excerpt length
