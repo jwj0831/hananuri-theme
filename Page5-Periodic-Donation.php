@@ -28,6 +28,11 @@ get_header(); ?>
 				<div class="form">
 					<?php if (function_exists('iphorm')) echo iphorm(1); ?>
 				</div>
+				<div>
+					<p class="donation-detail-text">
+						"후원금의 1/10은 행정운영(인건비, 임대비 등)을 위해 사용됩니다."
+					</p>
+				</div>
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->

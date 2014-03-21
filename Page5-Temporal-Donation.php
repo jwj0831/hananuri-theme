@@ -415,6 +415,11 @@
 					 		 <input type="submit" value="Send" class="btn-style" onclick="return jsf__pay(this.form);"/>
 						</div>
 					</div><!--close temporal_donate_form-->
+					<div>
+						<p class="donation-detail-text">
+							"후원금의 1/10은 행정운영(인건비, 임대비 등)을 위해 사용됩니다."
+						</p>
+					</div>
 <?
     /* =   2. 가맹점 필수 정보 설정                                                 = */
 ?>

@@ -1520,6 +1520,11 @@ footer #footer_line .org_info address { font-style: normal; }
 	font-size: 10px;
 }
 
+.donation-detail-text {
+	margin-top: 20px;
+	text-align: right;
+}
+
 /*
  * For Meal Donation Page
  */
