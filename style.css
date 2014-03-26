@@ -1730,3 +1730,57 @@ footer #footer_line .org_info address { font-style: normal; }
 	background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
 	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
 }
+
+/*
+ * 평화마을 신청페이지 
+ */
+#register-content{
+	margin-bottom: 30px;	
+}
+
+#register-div-outer {
+	margin: 0 auto;
+	width: 700px;
+}
+
+#register-title {
+	text-align: center;
+	font-size: 32px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#reservation-title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#google-calendar {
+	background-color: #000;
+	width: 680px;
+	height: 400px;
+	margin: 0 auto;
+}
+/*
+#notice-title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#notice-detail {
+	text-align: center;
+	font-size: 16px;
+	color: #9CA1A7;
+	margin-bottom: 10px;
+}
+
+#notice-list li {
+	font-size: 18px;
+}
+*/
