@@ -12,7 +12,7 @@
 				<li><a id="main_bannner3" href="<?php echo home_url() ?>/activities/overseas"><img src='<?php bloginfo('template_url'); ?>/images/main_banner2.gif' alt='해외 사업'></a></li>		
 				<li><a id="main_bannner4" href="<?php echo home_url() ?>/domestic"><img src='<?php bloginfo('template_url'); ?>/images/main_banner3.gif' alt='국내 사업'></a></li>
 				<li><a id="main_bannner5" href="<?php echo home_url() ?>/domestic/transformation"><img src='<?php bloginfo('template_url'); ?>/images/main_banner4.gif' alt='갈등전환센터'></a></li>
-				<li><a id="main_bannner6" href="<?php echo home_url() ?>/introduction"><img src='<?php bloginfo('template_url'); ?>/images/main_banner5.gif' alt='하나누리 소개'></a></li>
+				<li><a id="main_bannner6" href="<?php echo home_url() ?>/register-peace"><img src='<?php bloginfo('template_url'); ?>/images/main_banner5.gif' alt='평화마을 신청'></a></li>
 				<li><a id="main_bannner7" href="<?php echo home_url() ?>/domestic/landliberty"><img src='<?php bloginfo('template_url'); ?>/images/main_banner6.gif' alt='토지자유 연구소'></a></li>
 			</ul>
 		</div><!--close main_middle-->

@@ -1735,7 +1735,7 @@ footer #footer_line .org_info address { font-style: normal; }
  * 평화마을 신청페이지 
  */
 #register-content{
-	margin-bottom: 30px;	
+	margin-bottom: 60px;	
 }
 
 #register-div-outer {
@@ -1746,7 +1746,7 @@ footer #footer_line .org_info address { font-style: normal; }
 #register-title {
 	text-align: center;
 	font-size: 32px;
-	margin-top: 20px;
+	margin-top: 40px;
 	font-weight: bold;
 }
 
@@ -1764,23 +1764,3 @@ footer #footer_line .org_info address { font-style: normal; }
 	height: 400px;
 	margin: 0 auto;
 }
-/*
-#notice-title {
-	text-align: center;
-	font-size: 28px;
-	font-weight: bold;
-	margin-top: 20px;
-	margin-bottom: 5px;
-}
-
-#notice-detail {
-	text-align: center;
-	font-size: 16px;
-	color: #9CA1A7;
-	margin-bottom: 10px;
-}
-
-#notice-list li {
-	font-size: 18px;
-}
-*/
