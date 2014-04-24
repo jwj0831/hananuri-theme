@@ -1764,3 +1764,13 @@ footer #footer_line .org_info address { font-style: normal; }
 	height: 400px;
 	margin: 0 auto;
 }
+
+#peace-map {
+	text-align: center;
+}
+
+#peace-map-title {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
