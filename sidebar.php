@@ -105,20 +105,14 @@
 			echo '<aside id="periodic_support">';
 		else if( is_page( getTemporalSupportPageNum() ) )
 			echo '<aside id="temporal_support">';
-		else if ( is_page( getTaxRefundPageNum() ) )
-			echo '<aside id="tax_refund">';
 		else if ( is_page( getMealDonationPageNum() ) )
 			echo '<aside id="meal_donation">';
 		else if ( is_page ( getMoneyBoxPageNum() ) )
 			echo '<aside id="money_box">';
-		else if ( is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) or 
-				 is_page( getChristmasGiftPageNum() ) or  is_page( getChristmasMufflerPageNum() ) or
-				 is_page( getChristmasNorthPageNum() ) or is_page( getChristmasIndiaPageNum() ) )
+		else if ( is_page( getKnitMufflersPageNum() ) or is_page( getMufflerPayPageNum() ) )
 			echo '<aside id="muffler_support">';
 		else if ( is_page( getVolunteerAuthFormPageNum() ) )
 			echo '<aside id="volunteer_form">';
-		else if ( $category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
-			echo '<aside id="support_story">';
 ?>
 	<img src='<?php bloginfo('template_url'); ?>/images/subpage/left/left5_t.gif'>
 	<ul>
@@ -127,7 +121,7 @@
 		<li><a id="left5_menu3" href="<?php echo home_url() ?>/support/meal_donation"></a></li>
 		<li><a id="left5_menu4" href="<?php echo home_url() ?>/support/money_box"></a></li>		
 		<!--Temporary Event Close-->	
-		<!--<li><a id="left5_menu5" href="<?php echo home_url() ?>/support/muffler"></a></li>-->
+		<li><a id="left5_menu5" href="<?php echo home_url() ?>/support/muffler"></a></li>
 		<li><a id="left5_menu6" href="<?php echo home_url() ?>/support/volunteer_auth_form"></a></li>			
 	</ul>
 
@@ -146,11 +140,9 @@
 		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_meal.gif'>
 	</a>
 	<!-- Temporary Event Close -->
-	<!--
 	<a href="http://www.hananuri.org/support/muffler" target="_self" alt='목도리 뜨기 링크'>
 		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_muffler.gif'>
 	</a>
-	-->
 	<a href="http://www.hananuri.org/support/money_box" target="_self" alt='저금통 링크'>
 		<img class="left_low_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_moneyBox.gif'>
 	</a>
