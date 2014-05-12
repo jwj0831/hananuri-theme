@@ -89,9 +89,6 @@ function getChristmasGiftPageNum() {return 1490;}
 function getChristmasMufflerPageNum() {return 1525;}
 function getChristmasNorthPageNum() {return 1527;}
 function getChristmasIndiaPageNum() {return 1529;}
-
-function getRegisterPeacePageNum() {return 1616;}
-
 // Category Value
 function getNorthBizCategoryNum() {return 1;}
 function getOverseasBizCategoryNum() {return 2;}
