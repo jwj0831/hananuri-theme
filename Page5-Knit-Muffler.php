@@ -36,7 +36,7 @@ get_header(); ?>
 					<p id="muffler-mobile">모바일로 접속시 하단 정보 입력후 결제해주세요.</p>
 				</div>
 				<div>
-					<iframe src="https://docs.google.com/forms/d/1LBqkKAsmuvqJuVMyo6im_ZBjoOhyCB9KOWolCa-WZCU/viewform?embedded=true" width="712" height="700" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
+					<iframe src="https://docs.google.com/forms/d/1yLjlo4iH1zbi0U-jvoQrHdt2JHjBUiPP1GH3RonZZTc/viewform?embedded=true" width="712" height="700" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
 				</div> 
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
