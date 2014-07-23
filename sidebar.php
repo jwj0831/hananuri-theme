@@ -122,7 +122,7 @@
 		<li><a id="left5_menu4" href="<?php echo home_url() ?>/support/money_box"></a></li>		
 		<!--Temporary Event Close-->	
 		<li><a id="left5_menu5" href="<?php echo home_url() ?>/support/muffler"></a></li>
-		<li><a id="left5_menu6" href="<?php echo home_url() ?>/support/volunteer_auth_form"></a></li>			
+		<!--<li><a id="left5_menu6" href="<?php echo home_url() ?>/support/volunteer_auth_form"></a></li>-->			
 	</ul>
 
 <?php
