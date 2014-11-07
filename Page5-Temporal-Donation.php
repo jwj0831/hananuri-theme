@@ -219,7 +219,7 @@
 			<?php include (TEMPLATEPATH . '/sidebar.php'); ?> 
 			<div id="content">
 				<img src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_temporal_support.gif'>
-				<h2>&lt;잠시 테스트 중입니다.(15:00~19:00)&gt;</h2>
+				<!-- <h2>&lt;잠시 테스트 중입니다.(15:00~19:00)&gt;</h2> -->
 				<div class="form">
 				<form name="order_info" method="post" action="/kcp/pp_ax_hub.php" accept-charset="euc-kr" onsubmit="changeCharSet(this)" >
 					<div class="temporal_donate_form">
@@ -236,7 +236,9 @@
 				                        <option value="북한 인도적 지원">북한 인도적 지원</option>
 				                        <option value="북한 지역 개발 사업">북한 지역 개발 사업</option>
 				                        <option value="해외 어린이 지원 사업">해외 어린이 지원 사업</option>
-				                        <option value="해외 어린이 지원 사업">방한용품 보내기</option>
+				                        <option value="방한용품 보내기">방한용품 보내기</option>
+				                        <option value="국수기계 후원">국수기계 후원</option>
+				                        <option value="갈등전환 사업">갈등전환 사업</option>
 				                    </select>
 								</div>
 								<div class="donate_form_col2">
