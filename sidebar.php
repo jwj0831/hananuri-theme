@@ -127,6 +127,9 @@
 
 <?php
 	}
+	else if( is_attachment() ) {
+		echo '<aside id="attachment">';
+	}
 ?>
 	<img class="left_high_ban" src='<?php bloginfo('template_url'); ?>/images/subpage/left/left_support.gif' usemap="#support">
 	<map name="support">

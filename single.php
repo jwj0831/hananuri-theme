@@ -29,6 +29,8 @@
 								echo '홈 > 매거진 > 북녘땅 이야기';
 							else if($category == getDonationCategoryNum() or $category == getDonatioinEndCategoryNum() )
 								echo '홈 > 후원 > 후원안내';
+							else if( is_attachment() )
+								echo '자료';
 						?>
 					</p>
 				</div>
