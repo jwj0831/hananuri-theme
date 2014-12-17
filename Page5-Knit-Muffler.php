@@ -26,20 +26,26 @@ get_header(); ?>
 			<div id="content">
 				<img src='<?php bloginfo('template_url'); ?>/images/single/support_single_top.gif'>
 				<img id="knit_img" src='<?php bloginfo('template_url'); ?>/images/subpage/sub5/sub5_muffler_img.jpg' usemap="#knit">
-				<map name="knit" id="Map">
+				<!-- <map name="knit" id="Map">
 					<area shape="rect" coords="13,1934,697,2076" href="<?php echo home_url() ?>/support/volunteer_auth_form">
 					<area shape="rect" coords="2,2079,229,2201" href="<?php echo home_url() ?>/support/muffler_pay" />
 					<area shape="rect" coords="229,2078,481,2200" href="<?php echo home_url() ?>/support/money_box" />
 					<area shape="rect" coords="480,2078,720,2202" href="<?php echo home_url() ?>/support/periodic_support" />
-				</map>
+				</map> -->
 				<div>
-					<p id="muffler-mobile">모바일로 접속시 하단 정보 입력후 결제해주세요.</p>
+					<p id="muffler-mobile">2014 남북을 잇다 캠페인은 종료됐습니다.</p>
 				</div>
-				<div>
+				
+				<!-- <div>
 					<iframe src="https://docs.google.com/forms/d/1yLjlo4iH1zbi0U-jvoQrHdt2JHjBUiPP1GH3RonZZTc/viewform?embedded=true" width="712" height="700" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
-				</div> 
+				</div>  -->
 			</div><!--close content-->
 		</div><!--close subpage_fixed-->
 	</div><!--close subpage_stretched-->
 	<div class="clear"></div>
+	<script>
+	$(document).ready( function() {
+		alert("2014 남북을 잇다 캠페인은 종료됐습니다.");
+	});
+	</script>
 <?php get_footer(); ?>

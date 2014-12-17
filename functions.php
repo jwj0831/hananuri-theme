@@ -68,6 +68,8 @@ function getOverseasMongoliaPageNum() {return 25;}
 
 function getDomesticPageNum() {return 37;}
 function getTransformationPageNum() {return 39;}
+function getTransformEduPageNum() {return 1926;}
+function getTransformRegisterPageNum() {return 1928;}
 function getEducationPageNum() {return 41;}
 function getLandLibertyPageNum() {return 43;}
 

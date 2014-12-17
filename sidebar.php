@@ -47,11 +47,13 @@
 <?php
 	}
 	else if( is_page( getDomesticPageNum() ) or is_page( getTransformationPageNum() ) or 
+			is_page( getTransformEduPageNum() ) or is_page( getTransformRegisterPageNum() ) or 
 			is_page( getEducationPageNum() ) or is_page( getLandLibertyPageNum() ) or 
 			$category == getDomesticBizCategoryNum() or $category == getTransformationCategoryNum() or 
 			$category == getEducationCategoryNum() or $category == getLandlibertyCategoryNum() 
 	){
 		if( is_page( getDomesticPageNum() ) or is_page( getTransformationPageNum() ) or
+			is_page( getTransformEduPageNum() ) or is_page( getTransformRegisterPageNum() ) or 
 			$category == getDomesticBizCategoryNum() or $category == getTransformationCategoryNum() )
 			echo '<aside id="transformation">';	
 		else if( is_page( getEducationPageNum() ) or $category == getEducationCategoryNum() )
