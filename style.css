@@ -1075,8 +1075,58 @@ footer #footer_line .org_info address { font-style: normal; }
 .subpage_stretched .subpage_fixed #meal_donation li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
 .subpage_stretched .subpage_fixed #meal_donation li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
 
+.subpage_stretched .subpage_fixed #corn li #left5_menu1 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_1.gif') no-repeat;
+}
 
-.subpage_stretched .subpage_fixed #money_box li #left5_menu1 {
+.subpage_stretched .subpage_fixed #corn li #left5_menu2 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_2.gif') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #corn li #left5_menu3 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_3.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #corn li #left5_menu4 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_4r.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #corn li #left5_menu5 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_5.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #corn li #left5_menu6 {
+	width: 195px;
+	height: 46px;
+	display: block;
+	background: url('images/subpage/left/left5_6.jpg') no-repeat;
+}
+
+.subpage_stretched .subpage_fixed #corn li #left5_menu1:hover { background: url('images/subpage/left/left5_1r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #corn li #left5_menu2:hover { background: url('images/subpage/left/left5_2r.gif') no-repeat; }
+.subpage_stretched .subpage_fixed #corn li #left5_menu3:hover { background: url('images/subpage/left/left5_3r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #corn li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #corn li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
+.subpage_stretched .subpage_fixed #corn li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
+
+
+
+/*.subpage_stretched .subpage_fixed #money_box li #left5_menu1 {
 	width: 195px;
 	height: 46px;
 	display: block;
@@ -1124,6 +1174,9 @@ footer #footer_line .org_info address { font-style: normal; }
 .subpage_stretched .subpage_fixed #money_box li #left5_menu4:hover { background: url('images/subpage/left/left5_4r.jpg') no-repeat; }
 .subpage_stretched .subpage_fixed #money_box li #left5_menu5:hover { background: url('images/subpage/left/left5_5r.jpg') no-repeat; }
 .subpage_stretched .subpage_fixed #money_box li #left5_menu6:hover { background: url('images/subpage/left/left5_6r.jpg') no-repeat; }
+*/
+
+
 
 .subpage_stretched .subpage_fixed #muffler_support li #left5_menu1 {
 	width: 195px;
