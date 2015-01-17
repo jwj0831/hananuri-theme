@@ -7,6 +7,7 @@
 							</a>
 						</h1>
 						<ul>
+							<li><a id="header-ban-0" href="http://www.hananuri.org/domestic/conflict-edu"><img src='<?php bloginfo('template_url'); ?>/images/top_ban_0.jpg' alt='갈등전환센터 교육신청'></a></li>
 							<li><a id="header_banner1" href="http://shopnjoy.cafe24.com/front/php/category.php?cate_no=41" target="_blank"><img src='<?php bloginfo('template_url'); ?>/images/top_banner1.gif' alt='하나누리 착한소비 운동 하나누리 쌀'></a></li>
 							<li><img src='<?php bloginfo('template_url'); ?>/images/top_banner2.gif' alt='마음을 나누는 전화 1666-2792'></li>
 						</ul>

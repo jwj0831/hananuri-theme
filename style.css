@@ -1,6 +1,6 @@
 /*
 Theme Name: Hananuri_v1
-Theme URI: http://hananuri.org/
+/Theme URI: http://hananuri.org/
 Description: 하나누리 사이트 전용 테마.
 Author: 조우진(jwj0831@gmail.com)
 Author URI: http://www.notforme.kr//
@@ -137,12 +137,16 @@ a img.aligncenter {
 #header ul {
 	position: absolute;
 	top: 15px;
-	left: 645px;
+	left: 450px;
 }
 
 #header ul li {
 	list-style: none;
 	display: inline;
+}
+
+#header ul li a img:first-child {	
+	margin-right: 7px; 
 }
 
 #header ul li img {	float: left; }
